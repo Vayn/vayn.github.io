@@ -51,5 +51,5 @@ class Example {
 {% endhighlight %}
 
 <blockquote>该类最令人感兴趣的部分是第 18 行 $this->$name = $value;。这行代码将动态创建类实例成员。例如，如果调用 $example->SetProperty( 'name', 'Groucho' )，则可以用（传统的）$example->name 检索名称。</blockquote>
-相关资料：[Can you create class properties dynamically in PHP ?](http://stackoverflow.com/questions/829823/can-you-create-class-properties-dynamically-in-php "Stack Overflow")
+相关资料：[Can you create class properties dynamically in PHP ?](http://stackoverflow.com/questions/829823/can-you-create-class-properties-dynamically-in-php)
 

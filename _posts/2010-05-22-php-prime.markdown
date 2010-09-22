@@ -24,7 +24,7 @@ categories:
 
 <script src="http://gist.github.com/409891.js?file=sieve_of_eratosthenes.php"></script>
 
-==========
+---
 
 参考资料：
 

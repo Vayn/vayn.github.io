@@ -13,6 +13,6 @@ categories:
 
 <script src="http://gist.github.com/410052.js"></script>
 
-:visited:hover 头回见。补习。
+\:visited:hover 头回见。补习。
 
 EOF

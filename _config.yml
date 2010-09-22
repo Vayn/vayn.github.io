@@ -2,4 +2,4 @@ auto: true
 server: true
 lsi: true
 pygments: true
-markdown: rdiscount
+markdown: maruku

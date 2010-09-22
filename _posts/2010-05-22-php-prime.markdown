@@ -1,0 +1,37 @@
+---
+layout: post
+title: '{PHP} 计算质数'
+author: Vayn
+date: 2010-05-22T13:56:00+0000
+categories:
+  - algorithm
+  - math
+  - php
+
+---
+
+质数只能被1和它自己整除，最小的质数是2。
+
+一个最基本的求1万以内质数和的方法：
+
+<script src="http://gist.github.com/409824.js?file=prime_number.php"></script>
+
+求1万以内质数和加强版：
+
+<script src="http://gist.github.com/409917.js"></script>
+
+从[神仙居](http://syre.blogbus.com/)找到的《[筛法找质数之PHP版](http://syre.blogbus.com/logs/5731300.html)》
+
+<script src="http://gist.github.com/409891.js?file=sieve_of_eratosthenes.php"></script>
+
+==========
+
+参考资料：
+
+1. [问一个超级弱的问题，求素数中为什么要先开平方](http://topic.csdn.net/u/20090321/17/fb43f873-83c0-4aaf-8d96-a528355d8bf4.html)
+
+2. [埃拉托斯特尼筛法](http://zh.wikipedia.org/zh-cn/%E5%9F%83%E6%8B%89%E6%89%98%E6%96%AF%E7%89%B9%E5%B0%BC%E7%AD%9B%E6%B3%95)
+
+3. [求百万级别的质数的几种算法](http://luren84.spaces.live.com/blog/cns!F92125191404692A!370.entry)
+
+EOF

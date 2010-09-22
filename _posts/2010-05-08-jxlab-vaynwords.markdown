@@ -28,3 +28,9 @@ Project VaynWords 正式升级到 0.5.3 版。
 下载地址 [http://project-vaynwords.googlecode.com/files/project-vaynwords-v0.5.3.tar.gz](http://project-vaynwords.googlecode.com/files/project-vaynwords-v0.5.3.tar.gz)
 
 更多信息请访问 [http://phpsycho.jixia.org/p/vaynwords.html](http://phpsycho.jixia.org/p/vaynwords.html)
+
+---
+
+特别感谢[沙滩凉鞋（屈超）](http://www.quchao.com/)的指点！m（＿＿）m
+
+---

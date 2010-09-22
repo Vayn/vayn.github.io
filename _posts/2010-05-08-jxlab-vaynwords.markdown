@@ -35,4 +35,4 @@ Project VaynWords 正式升级到 0.5.3 版。
 
 参考资料：
 
-1. [RSS 教程](http://www.w3school.com.cn/rss/index.asp "RSS 教程")
+1. [RSS 教程](http://www.w3school.com.cn/rss/index.asp 'RSS')

@@ -6,7 +6,7 @@ layout: nil
 
     <title>NextGen</title>
     <link href="http://www.elnode.com/atom.xml" rel="self"/>
-    <link href="http://www.elnode.com/"/>
+    <link href="http://www.elnode.com"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>http://www.elnode.com/</id>
     <author>

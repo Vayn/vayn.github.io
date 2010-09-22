@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://www.elnode.com/</loc>
+        <loc>http://www.elnode.com</loc>
         <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -23,7 +23,7 @@ layout: nil
     </url>
     {% for post in site.posts %}
     <url>
-        <loc>http://www.elnode.com{{ post.url }}</loc>
+        <loc>http://www.elnode.com/{{ post.url }}</loc>
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>

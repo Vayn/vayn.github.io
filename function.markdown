@@ -2,6 +2,7 @@
 layout: post
 title: Functions
 author: Vayn
+date: 2010-09-20
 
 ---
 

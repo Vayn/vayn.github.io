@@ -70,7 +70,7 @@ table {
 /* - Grid
 -------------------------------------------------------*/
 .container {
-    width: 710px;
+    width: 750px;
     margin: 0 auto;
 }
 
@@ -87,7 +87,7 @@ table {
 
 .span-2{width:70px;}
 
-.span-3{width:110px;}
+.span-3{width:130px;}
 
 .span-4{width:150px;}
 
@@ -263,7 +263,8 @@ li {
 }
 
 .post h2 {
-    padding-left: 120px;
+    padding-left: 140px;
+    padding-bottom: 5px;
 }
 
 .post-meta p {

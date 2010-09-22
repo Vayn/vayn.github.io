@@ -4,7 +4,6 @@ title: '{PHP} Project Nowhere Plus FeedCore'
 author: Vayn
 date: 2010-08-13T15:13:36+0000
 categories:
-  -
   - jxlab
   - php
 
@@ -32,11 +31,11 @@ Twitter, Wakoopa, 豆瓣, Bangumi, Last.fm, FriendFeed, Google Reader。
 
 **Credits**
 
-感谢 Sai [http://saicn.com/me](http://saicn.com/me)，[Project Nowhere](http://code.google.com/p/project-nowhere/) 是 Sai 一手完成的项目。
+感谢 Sai <[http://saicn.com/me](http://saicn.com/me)\>，[Project Nowhere](http://code.google.com/p/project-nowhere/) 是 Sai 一手完成的项目。
 
-感谢 Jeremy Keith [http://adactio.com/](http://adactio.com/)，同步其他 stream project 的最初实现来自他的[源码](http://adactio.com/extras/stream/stream.phps)。
+感谢 Jeremy Keith <[http://adactio.com/](http://adactio.com/)\>，同步其他 stream project 的最初实现来自他的[源码](http://adactio.com/extras/stream/stream.phps)。
 
-感谢水木 PHP 版的 feuvan [http://www.newsmth.net/bbsqry.php?userid=feuvan](http://www.newsmth.net/bbsqry.php?userid=feuvan) 版主，耐心帮助我解决了异步更新的难题（对我来说，因为我不会 Javascript）。
+感谢水木 PHP 版的 feuvan <[http://www.newsmth.net/bbsqry.php?userid=feuvan](http://www.newsmth.net/bbsqry.php?userid=feuvan)\> 版主，耐心帮助我解决了异步更新的难题（对我来说，因为我不会 Javascript）。
 
 也感谢 V2EX 的各位网友，Project Nowhere Plus FeedCore 是我看到 [http://www.v2ex.com/t/1093](http://v2ex.appspot.com/t/1093) 这个贴子的时候才萌生了给 Nowhere 加入 feed 导入功能。
 
@@ -49,4 +48,3 @@ Twitter, Wakoopa, 豆瓣, Bangumi, Last.fm, FriendFeed, Google Reader。
 如果你发现任何问题，欢迎和我联络，我的电子邮件地址是 vt at elnode dot com
 
 EOF
-

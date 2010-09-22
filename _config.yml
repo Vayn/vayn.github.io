@@ -1,5 +1,4 @@
 auto: true
 server: true
-lsi: true
 pygments: true
 markdown: maruku

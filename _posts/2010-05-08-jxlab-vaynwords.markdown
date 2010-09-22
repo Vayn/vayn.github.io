@@ -35,14 +35,3 @@ Project VaynWords 正式升级到 0.5.3 版。
 
 参考资料：
 
-1. [RSS 教程](http://www.w3school.com.cn/rss/index.asp "RSS 教程")
-
-2. [XSLT 教程](http://www.w3school.com.cn/xsl/index.asp "XSLT教程")
-
-3. [XPath、XQuery 以及 XSLT 函数](http://www.w3school.com.cn/xpath/xpath_functions.asp "XPath、XQuery 以及 XSLT 函数")
-
-4. [结合使用 PHP 和 RSS](http://www.ibm.com/developerworks/cn/xml/x-phprss/)
-
-5. [使用 XML: 扩展 RSS 的能力](http://www.ibm.com/developerworks/cn/xml/x-wxxm36.html)
-
-EOF

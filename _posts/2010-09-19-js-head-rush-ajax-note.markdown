@@ -52,8 +52,7 @@ function addToTop5() {
 
   }
 
-  if (numCDs
-= 5) {
+  if (numCDs == 5) {
 
     alert("You already have 5 CDs. Click \"Start Over\" to try again.");
 

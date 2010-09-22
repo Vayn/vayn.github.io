@@ -4,7 +4,6 @@ title: '{PHP} 二分查找算法'
 author: Vayn
 date: 2010-04-20T22:14:00+0000
 categories:
-  -
   - algorithm
   - php
 

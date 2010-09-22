@@ -14,13 +14,13 @@ $$
 
 [A variable variable takes the value of a variable and treats that as the name of a variable.](http://www.php.net/manual/en/language.variables.variable.php)
 
-===
+---
 
 Superglobals
 
 [Superglobals are built-in variables that are always available in all scopes](http://www.php.net/manual/en/language.variables.superglobals.php)
 
-===
+---
 
 Autoloading Classes
 

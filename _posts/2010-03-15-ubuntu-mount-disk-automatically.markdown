@@ -33,10 +33,10 @@ tar -cvpzf /backup/backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/m
 
 还原
 
+__注意：切勿轻易尝试使用此命令！__
+
 {% highlight sh %}
 tar -xvpzf /backup/backup.tgz -C /
-
-__注意：切勿轻易尝试使用此命令！
 
 mkdir proc
 

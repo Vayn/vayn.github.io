@@ -32,7 +32,7 @@ categories:
 
 ---
 
-__什么是多态性（Polymorphism）？
+__什么是多态性（Polymorphism）？__
 
 >多态性（Polymorphism）这个单词看起来很长，其实是一个非常简单的概念。
 >
@@ -46,7 +46,7 @@ __什么是多态性（Polymorphism）？
 
 ---
 
-__接口（Interfaces）
+__接口（Interfaces）__
 
 多态性的一个重要组成部分是通用接口。PHP有两种定义接口的方法 ：<strong>接口（Interfaces）</strong>和<strong>抽象类（Abstract Classes）</strong>。它们均有自己的适用性，你可以把它们混合和匹配到你认为合适的类层级中。
 
@@ -144,7 +144,7 @@ abstract class MyAbstract {
 
 ---
 
-__Step 1：确定问题
+__Step 1：确定问题__
 
 让我们想像下你有一个Article类，负责管理网站上的文章。它包含一篇文章的信息，包括标题，作者，日期，以及类别。就像这样：
 
@@ -204,7 +204,7 @@ class poly_base_Article {
 
 ---
 
-__Step 2：定义你的接口
+__Step 2：定义你的接口__
 
 我们要做的第一件事是定义接口。动脑筋思考下你的接口非常重要，因为对它的任何改变都需要改变调用代码。在样例中，我们将用一个简单的接口去定义我们的方法：
 
@@ -220,7 +220,7 @@ interface poly_writer_Writer {
 
 ---
 
-__Step 3：创建你的实现
+__Step 3：创建你的实现__
 
 随着你的接口被定义，是时候创造真正做事的类了。在样例中，我们想输出两种格式。因此我们有两个Writer类：XMLWriter和JSONWriter。用于从传递来的Article对象提取数据和格式化信息。
 
@@ -259,7 +259,7 @@ class poly_writer_JSONWriter implements poly_writer_Writer {
 
 ---
 
-__Step 4：使用你的实现
+__Step 4：使用你的实现__
 
 随着我们的新类被定义，是时候重访我们的Article类了。所有住在原生 write() 方法中的代码都已经被析出因子到我们新类的集合了。我们所有的方法现在必须要做的是使用这些新类，比如：
 
@@ -299,7 +299,7 @@ class poly_base_Factory {
 
 ---
 
-__Step 5：信息汇总
+__Step 5：信息汇总__
 
 随着一切准备就绪，下面是我们的客户端代码如何把它们接合到一起：
 

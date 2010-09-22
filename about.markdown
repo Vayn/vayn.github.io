@@ -3,10 +3,10 @@ layout: default
 title: About
 ---
 
-## About Ben
+## About Me
 
 <img src="http://www.gravatar.com/avatar/0619de25d967ff4224263c94da32548c.png" class="callout" />
-I’m a web developer in San Francisco. I’m passionate about building websites, programming and tools-obsessed.
+I’m a web developer. I’m passionate about building websites, programming and tools-obsessed.
 
 Did I mention I’m obsessed with tools? [TextMate][tm] is the my favorite and I use it for just about everything I work on. This site is published using [Jekyll][jk] which “…is a blog-aware, static site generator in Ruby.” The [source for the site][src] is hosted on GitHub, cloned to a [Slicehost][sh] slice and turned into plain HTML and CSS using the Jekyll RubyGem. Some of my other favorites include: [Versions][va], for working with Subversion, [Simplenote][sn], a great notes application for the iPhone, and [NetNewsWire][nnw], where I faithfully (try to) keep up with the ~232 feeds I subscribe to.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Functions
+title: Function
 author: Vayn
 date: 2010-09-20
 

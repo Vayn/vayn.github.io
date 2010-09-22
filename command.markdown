@@ -11,7 +11,7 @@ __VIM__
 
 __LINUX__
 
-`find path/ -name \"\*.format\" \-print | xargs wc \-l`
+`find path -name "*.format" -print | xargs wc -l`
 
 统计文件行数
 

@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Function
-author: Vayn
-date: 2010-09-20
-
 ---
 
 [mime_content_type](http://php.net/manual/en/function.mime-content-type.php) — Detect MIME Content-type for a file (deprecated)

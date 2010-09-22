@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Command
-author: Vayn
-date: 2010-09-20
-
 ---
 
 __VIM__

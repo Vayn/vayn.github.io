@@ -22,10 +22,10 @@
         <div class="container">
             <p id="logo"><a href="/">NextGen</a></p>
             <ul id="nav" class="clearfix">
-                <li{% if page.title == 'About' %} class="selected"{% endif %}><a href="/about.html">About</a></li>
-                <li{% if page.title == 'Archive' %} class="selected"{% endif %}><a href="/archive.html">Archive</a></li>
                 <li{% if page.title == 'Command' %} class="selected"{% endif %}><a href="/command.html">Command</a></li>
                 <li{% if page.title == 'Function' %} class="selected"{% endif %}><a href="/function.html">Function</a></li>
+                <li{% if page.title == 'About' %} class="selected"{% endif %}><a href="/about.html">About</a></li>
+                <li{% if page.title == 'Archive' %} class="selected"{% endif %}><a href="/archive.html">Archive</a></li>
             </ul>
         </div>
     </div>
@@ -39,7 +39,7 @@
     </div>
 
     <div id="footer" class="container">
-        <p>Copyright &copy; 2009&ndash;{{ site.time | date: "%Y" }} <a href="mailto:vayn@vayn.de">Vayn a.k.a. VT</a></p>
+        <p>Copyright &copy; 2009&ndash;{{ site.time | date: "%Y" }} <a href="mailto:v&#97;yn&#64;v&#97;yn.d&#101;">Vayn a.k.a. VT</a></p>
     </div>
 </body>
 </html>

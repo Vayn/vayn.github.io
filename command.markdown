@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Command
 ---
 
@@ -26,4 +26,3 @@ __LINUX__
 `sudo -u gdm gconftool-2 --set /desktop/gnome/peripherals/mouse/cursor_theme --type string "Cursor Name"`
 
 修改 Ubuntu 鼠标指针，可以连开机时的指针一起修改
-

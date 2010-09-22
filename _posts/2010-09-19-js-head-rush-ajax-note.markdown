@@ -10,7 +10,9 @@ categories:
 
 ---
 
-<a href="http://book.douban.com/subject/3136781/"><img src="http://img3.douban.com/mpic/s3182952.jpg" style="float:left;padding:0 20px 20px 0;border:0"/></a>Head Rush Ajax 这本书很适合新手学习，没有大段枯燥的文字，没有过多的难以理解的理论。
+<a href="http://book.douban.com/subject/3136781/"><img src="http://img3.douban.com/mpic/s3182952.jpg" style="float:left;padding:0 20px 20px 0;border:0"/></a>
+
+Head Rush Ajax 这本书很适合新手学习，没有大段枯燥的文字，没有过多的难以理解的理论。
 
 下面是我练习中发现的一个小问题，mark之。
 

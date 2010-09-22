@@ -1,0 +1,125 @@
+---
+layout: post
+title: '{PHP} 一个6位数分别乘2,3,4,5,6都得到一个6位数且与原6位数字组成相同'
+author: Vayn
+date: 2010-05-23T15:18:39+0000
+categories:
+  - algorithm
+  - math
+  - php
+
+---
+
+[http://bbs.phpchina.com/viewthread.php?tid=54377&extra=&page=1](http://bbs.phpchina.com/viewthread.php?tid=54377&extra=&page=1)
+
+__[8楼， 耗时 2,065.30ms](http://www.phpchina.com/bbs/viewthread.php?tid=54377&amp;page=1#pid391170)__
+
+1、注意：去除了exit()后的耗时，因为可能存在别的数。（公平起见）
+
+2、这是一个比较取巧的算法，转成字符，利用系统现成的函数来解决。
+
+3、我们应该学习8楼的实际应用能力，快速解决问题。
+
+（马后炮：跟我想的差不多，只要判断两个数字字符数相同就行了。）
+
+[8楼修正版 耗时1,919.05](http://www.phpchina.com/bbs/viewthread.php?tid=54377&amp;page=2#pid391919)
+
+__[11楼，耗时 1,877.39ms](http://www.phpchina.com/bbs/viewthread.php?tid=54377&amp;page=2#pid391280)__
+
+1、纯数学解决，用了很多函数来解决判断问题，比较强悍。:victory:
+
+2、我们应该用11楼的思维方式来提高自己的思维水平。
+
+__[18楼，耗时 20,364.50ms](http://www.phpchina.com/bbs/viewthread.php?tid=54377&amp;page=2#pid391844)__
+
+1、虽得出正确结果，算法需要优化。
+
+2、在实际应用上不实际，系统会被拖垮。
+
+__[22楼，耗时1182.08ms](http://www.phpchina.com/bbs/viewthread.php?tid=54377&amp;page=3#pid393279)__
+
+1、纯数学排序算法
+
+2、先对问题进行了人工分析。（这个在实际应用中相当重要）
+
+__[23楼，耗时5,281.11ms](http://www.phpchina.com/bbs/viewthread.php?tid=54377&amp;page=3#pid393318)__
+
+1、循环字符串算法
+
+2、思路清晰但由于判断和循环很多，效率不高
+
+__[30楼，耗时1031.00ms](http://www.phpchina.com/bbs/viewthread.php?tid=54377&amp;page=3#pid394178)__
+
+1、程序结构严谨。
+
+2、算法精妙，思路清晰。（有大家风范，是我辈学习的典范）
+
+__[50楼，耗时440.78ms](http://www.phpchina.com/bbs/viewthread.php?tid=54377&amp;page=5#pid395051)__
+
+1、条件判断一次搞定，速度超快。
+
+2、多次递归算法（谁说PHP递归性能不好，速度很快嘛）。
+
+__[55楼](http://www.phpchina.com/bbs/viewthread.php?tid=54377&amp;page=6#pid395464)__
+
+提供了两种算法
+
+50楼算法：
+
+{% highlight php %}
+<?php
+function microtime_float()
+title: '{
+    list($usec, $sec) = explode(" ", microtime());
+    return ((float)$usec + (float)$sec);
+}
+
+$time_start = microtime_float();
+
+function check_($t,$tt)
+title: '{
+    $tt = strval($tt);
+    if(strpos($t,$tt[0])!==false&&strpos($t,$tt[1])!==false&&strpos($t,$tt[2])!==false&&strpos($t,$tt[3])!==false&&strpos($t,$tt[4])!==false&&strpos($t,$tt[5])!==false)
+    {
+        return true;
+    }else
+    {
+        return false;
+    }
+}
+
+for($t1=100002; $t1<166667;$t1+=3)
+title: '{
+    $t2 = $t1*2;
+    if(check_($t2,$t1))
+    {
+        $n1[] = $t1;
+    }
+}
+for($i=1; $i<=4; $i++)
+title: '{
+    if($i==1)
+    {
+        $a = $n1;
+    }else
+    {
+        $a = $tmp;
+    }
+    $tmp = '';
+    foreach($a as $val)
+    {
+        ${"t($i+2)"} = $val*($i+2);
+        if(check_(${"t($i+2)"},$val))
+            {
+                $tmp[] = $val;
+            }
+    }
+
+}
+print_r($tmp);
+$time_end = microtime_float();
+echo($time_end-$time_start);
+}
+?>
+{% endhighlight %}
+

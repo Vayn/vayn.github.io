@@ -17,7 +17,7 @@ Head Rush Ajax 这本书很适合新手学习，没有大段枯燥的文字，�
 
 在 chapter04 的 Top 5 CD Listings 例子中，可以在 body 标签中加入 onLoad="addOnClickHandlers()" 在页面加载的时候给每个 img 标签添加 onClick 事件处理器，然后就可以利用这个事件处理器回调 addToTop5() 函数：
 
-{% highlight javascript %}
+{% highlight js+genshi %}
 
 function addOnClickHandlers() {
 

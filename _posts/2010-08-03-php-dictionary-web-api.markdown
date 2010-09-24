@@ -13,6 +13,8 @@ categories:
 
 先来个 Google Translate API 自制版
 
+__Notice:__ This class has been out of data since Google Translate uses Ajax. [Google Translate™ API PHP Wrapper](http://code.google.com/p/gtranslate-api-php/) is a better solution if you want to use Google Translate API. (updated on Sep 24 2010)
+
 [http://labs.involutive.com/2007/06/05/google-translator-api-php-5-class/](http://labs.involutive.com/2007/06/05/google-translator-api-php-5-class/)
 
 {% highlight php %}

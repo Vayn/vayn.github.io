@@ -22,3 +22,5 @@ title: Function
 [fpassthru](http://php.net/manual/en/function.fpassthru.php) — Output all remaining data on a file pointer
 
 [Alternative syntax for control structures](http://php.net/manual/en/control-structures.alternative-syntax.php) — PHP offers an alternative syntax for some of its control structures; namely, if, while, for, foreach, and switch. In each case, the basic form of the alternate syntax is to change the opening brace to a colon (:) and the closing brace to endif;, endwhile;, endfor;, endforeach;, or endswitch;, respectively.
+
+[ucwords](http://php.net/manual/en/function.ucwords.php) — Returns a string with the first character of each word in str capitalized, if that character is alphabetic.

@@ -22,9 +22,8 @@ categories:
 
 我们已经很幸运地拥有 Kevin，他有着写作和编辑背景，在过去几年里帮助我们打磨我们的 blog 文章、支持邮件、新闻通讯、文档和演讲。尽管有一张安全网很棒，我相信你的长期的成功取决于沟通，与员工的沟通，与拥护者的沟通，与合作伙伴的沟通，以及与客户的沟通。每个人，由其处在领导位置的人，需要能够像和电脑交流那样与人交流。Roy Jacobsen 最近在他的 blog 上对此有很赞的见解，[Writing, Clear and Simple](http://rmjacobsen.squarespace.com/about/):
 
->“The words you use, either written or spoken, can have powerful effects on your audience‚ — <strong><em>if you use them carefully and skillfully</em></strong>. Whether your goal is to inform, to persuade, to call for action, or to entertain, your words and your stories can be powerful. They can be powerful, because <strong><em>language is software for the mind</em></strong>.”
->
->你使用的词汇，包括写下的和说出的，会对你的听众产生强大影响，<strong><em>如果你小心地，巧妙地使用它们的话</em></strong>。无论你的目的是为了通知，为了说服，为了呼吁行动，亦或为了娱乐，你的用词和你的叙述可以是强有力的。它们之所以有力，是因为<strong><em>语言是思维的软件</em></strong>。
+<blockquote><p>“The words you use, either written or spoken, can have powerful effects on your audience‚ — <strong><em>if you use them carefully and skillfully</em></strong>. Whether your goal is to inform, to persuade, to call for action, or to entertain, your words and your stories can be powerful. They can be powerful, because <strong><em>language is software for the mind</em></strong>.”<p/>
+<p>你使用的词汇，包括写下的和说出的，会对你的听众产生强大影响，<strong><em>如果你小心地，巧妙地使用它们的话</em></strong>。无论你的目的是为了通知，为了说服，为了呼吁行动，亦或为了娱乐，你的用词和你的叙述可以是强有力的。它们之所以有力，是因为<strong><em>语言是思维的软件</em></strong>。</p></blockquote>
 
 自从我大部分的成年时光都用来编程和与计算机交流，我的写作，或者说思考能力的软件，已经不幸地放在了次要位置上。只有当你不用一种专门的方法去学习新技能，而且在你的日常工作中不间断地使用默认的写作水平，你才会有巨大的进步（ Only so much progress can really be made when you don’t take a dedicated approach to learning a new skill, and the default level of writing that goes into a normal day’s work just doesn’t cut it.）。因此，为了努力增强我的写作技能和一同增长的业务，我已经决定给予我的写作能力它所急需的爱和关怀（译者：好冷……）。这里有一些过去几个月我所找到的有用的资源，如果你也正在像我一样希望提升写作水平，而且，没法访问矩阵（译者：囧），这些资源也许值得一看。
 

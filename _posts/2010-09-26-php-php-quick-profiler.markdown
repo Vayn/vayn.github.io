@@ -103,7 +103,7 @@ catch(Exception $e) {
 
 <a href="http://www.flickr.com/photos/wufoo/3465935161/"><img src="http://farm4.static.flickr.com/3557/3465935161_9cac2d37f6_o.png" alt="PQP" width="596" /></a>
 
-###观察内存用法
+###观察内存使用
 
 Object oriented PHP 是一种看起来很漂亮的东西，但是涉及内存使用的时候有几个明确的问题需要牢记。这些问题会在处理递归输出的时候易于引起一些状况出现（比如：输出到 Excel），如果创造对象的时候有内存泄漏或对象没有被恰当地销毁。所有这些会导致意料之外的资源使用和致命错误，加剧恶化最终用户的使用。
 

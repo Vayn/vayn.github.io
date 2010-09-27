@@ -296,6 +296,15 @@ li {
     font-weight: normal;
 }
 
+img {
+    border:1px solid #f0f0f0;
+    border-right:1px solid #dedede;
+    border-bottom:1px solid #dedede;
+    padding:1em;
+    margin:0 auto 1.5em auto;
+    display:block;
+}
+
 
 /* - Misc
 -------------------------------------------------------*/

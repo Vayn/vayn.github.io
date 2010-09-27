@@ -18,7 +18,7 @@ categories:
 
 <p style="text-align:center;"><embed src="http://player.youku.com/player.php/sid/XNTU3ODA4/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"></embed></p>
 
-如果你现在给我同样的机会让我选择，我大概不会再选专业的技术技能。偶可能会要求往偶的大脑里插入常常被忽略的，不被欣赏的艺术 —— <del>功夫</del> 写作能力。这不是因为技术对我们的公司不重要——毕竟我们是一间软件公司。这是因为我注意到当一间公司到达一定的成熟期，生意似乎总是需要更多的沟通，包括书面上的和口头上的，就像需要技术创新那样。
+<p>如果你现在给我同样的机会让我选择，我大概不会再选专业的技术技能。偶可能会要求往偶的大脑里插入常常被忽略的，不被欣赏的艺术 —— <del>功夫</del> 写作能力。这不是因为技术对我们的公司不重要——毕竟我们是一间软件公司。这是因为我注意到当一间公司到达一定的成熟期，生意似乎总是需要更多的沟通，包括书面上的和口头上的，就像需要技术创新那样。</p>
 
 我们已经很幸运地拥有 Kevin，他有着写作和编辑背景，在过去几年里帮助我们打磨我们的 blog 文章、支持邮件、新闻通讯、文档和演讲。尽管有一张安全网很棒，我相信你的长期的成功取决于沟通，与员工的沟通，与拥护者的沟通，与合作伙伴的沟通，以及与客户的沟通。每个人，由其处在领导位置的人，需要能够像和电脑交流那样与人交流。Roy Jacobsen 最近在他的 blog 上对此有很赞的见解，[Writing, Clear and Simple](http://rmjacobsen.squarespace.com/about/):
 

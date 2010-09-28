@@ -21,7 +21,7 @@ categories:
 
 这让人恼火，但等待一个加载缓慢的页面比关掉屏蔽要容易，你需要做的唯一一件事就是等。我已经发现当 Reddit 在我访问的头七秒内打不开，我就会关掉网站继续做我刚才在做的事情。一般来讲，让那些通过小小点击获得的快乐来得慢些，让我们的大脑有时间反应它在做什么；好理性地重视做工作而得的延迟的满足感，而不是选择感性点击而获得的即时的满足感。(More generally, by making those little hits of joy take longer, it gives our brain the time it needs to reflect on what it’s doing; to rationally value the delayed gratification of doing the work, instead of opting for the emotional hit of instant gratification. )。最终，就像中国超级防火墙一样，你内心的愤怒会指向延迟的网站而非生产力代理。这就巧妙地训练你，让你变得更有效率。
 
-我们从拖延获得的快乐来自于，当我们看到或学到某些新东西时候多巴胺的释放。多巴胺让我们在 Wikipedia 上一个劲儿的点链接，让我们在 [demotivational posters](http://verydemotivational.com/) 上一个劲儿的看图片。为了成功打断这些习惯，we need to ween ourselves off the dopamine。在真实的场景中，我们的大脑，会沉溺于不断涌入的新东西（Our brain, in a real sense, is addicted to the constant influx of new.）。这是为什么我们不断检查邮件的原因：[我们的大脑](http://en.wikipedia.org/wiki/Nucleus_accumbens)寻找从新邮件和潜在的重要信息获得的随机奖励。告诉自己以后再也不拖延了和告诉自己正在戒烟一样有效。我们需要给我们的大脑类似于尼古丁贴片的东西。这就是生产力代理。
+我们从拖延获得的快乐来自于，当我们看到或学到某些新东西时候多巴胺的释放。多巴胺让我们在 Wikipedia 上一个劲儿的点链接，让我们在 [demotivational posters](http://verydemotivational.com/) 上一个劲儿的看图片。为了成功打断这些习惯，我们要慢慢摆脱多巴胺的控制（we need to ween ourselves off the dopamine）。在真实的场景中，我们的大脑，会沉溺于不断涌入的新东西（Our brain, in a real sense, is addicted to the constant influx of new.）。这是为什么我们不断检查邮件的原因：[我们的大脑](http://en.wikipedia.org/wiki/Nucleus_accumbens)寻找从新邮件和潜在的重要信息获得的随机奖励。告诉自己以后再也不拖延了和告诉自己正在戒烟一样有效。我们需要给我们的大脑类似于尼古丁贴片的东西。这就是生产力代理。
 
 把那些会让你产生拖延症的网站变慢，而不是封锁它们，是一种生产力和精神上的柔术（Slowing procrastinatory sites, instead of blocking them, is the jujitsu of productivity and the mind.）。
 

@@ -25,4 +25,4 @@ categories:
 
 把那些会让你产生拖延症的网站变慢，而不是封锁它们，是一种生产力和精神上的柔术（Slowing procrastinatory sites, instead of blocking them, is the jujitsu of productivity and the mind.）。
 
-__征集：__ 我正在找一名开发者，帮我把这个想法变成功能完备的代理。现在已经有两个简单的[Python](http://pypi.python.org/pypi/throxy.py/0.1) 写成的代理实现，它们是给为 [Node.js](http://github.com/toolness/throxode) 写的，可以很容易的添加生产力过滤器。如果你感兴趣，请发推到 [@azaaza](http://twitter.com/azaaza)。
+__征集：__ 我正在找一名开发者，帮我把这个想法变成功能完备的代理。现在已经有两个简单的[Python](http://pypi.python.org/pypi/throxy.py/0.1) 写成的代理实现，它们是为 [Node.js](http://github.com/toolness/throxode) 写的，可以很容易的添加生产力过滤器。如果你感兴趣，请发推到 [@azaaza](http://twitter.com/azaaza)。

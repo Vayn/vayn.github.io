@@ -27,7 +27,7 @@ categories:
 你使用的词汇，包括写下的和说出的，会对你的听众产生强大影响，<strong><em>如果你小心地，巧妙地使用它们的话</em></strong>。无论你的目的是为了通知，为了说服，为了呼吁行动，亦或为了娱乐，你的用词和你的叙述可以是强有力的。它们之所以有力，是因为<strong><em>语言是思维的软件</em></strong>。
 </blockquote>
 
-自从我大部分的成年时光都用来编程和与计算机交流，我的写作，或者说思考能力的软件，已经不幸地放在了次要位置上。只有当你不用一种专门的方法去学习新技能，而且在你的日常工作中不间断地使用默认的写作水平，你才会有巨大的进步（ Only so much progress can really be made when you don’t take a dedicated approach to learning a new skill, and the default level of writing that goes into a normal day’s work just doesn’t cut it.）。因此，为了努力增强我的写作技能和一同增长的业务，我已经决定给予我的写作能力它所急需的爱和关怀（译者：好冷……）。这里有一些过去几个月我所找到的有用的资源，如果你也正在像我一样希望提升写作水平，而且，没法访问矩阵（译者：囧），这些资源也许值得一看。
+自从我大部分的成年时光都用来编程和与计算机交流，我的写作，或者说思考能力的软件，已经不幸地放在了次要位置上。只有当你不在学习新技能上花大力气的时候，才能获得大的进步，而每天工作中涉及的基本写作无法做到这点。（ Only so much progress can really be made when you don’t take a dedicated approach to learning a new skill, and the default level of writing that goes into a normal day’s work just doesn’t cut it.）。因此，为了努力增强我的写作技能和一同增长的业务，我已经决定给予我的写作能力它所急需的爱和关怀（译者：好冷……）。这里有一些过去几个月我所找到的有用的资源，如果你也正在像我一样希望提升写作水平，而且，没法访问矩阵（译者：囧），这些资源也许值得一看。
 
 1. [Elements of Style](http://www.amazon.com/Elements-Style-Fourth-William-Strunk/dp/020530902X) - 按照介绍所说（As the instruction states），写作就是简洁地、清楚地叙述一些有价值的事情。这本 90 高龄的书仍然是最值得给书写的人推荐的书之一，并且它那些有关写作基本原则的小贴士总是值得放在旁边。
 

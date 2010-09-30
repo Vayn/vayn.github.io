@@ -21,7 +21,7 @@ categories:
 
 如果没有这些多种多样的 API，我是不可能实现这个想法。Web 2.0 is magnificent!
 
-欢迎访问 [Project Vaynwords](http://vtcore.com/vaynwords/)！
+欢迎访问 [Project Vaynwords](http://lab.jixia.org/vws/)！
 
 p.s. Project Vaynwords 0.1 最大的问题是某些单词的发音没有解决，比如 contemplate 就没法发音，只能说 Google Dictionary 的发音文件路径太古怪了，也许下个版本我会换个方法获取文件。
 

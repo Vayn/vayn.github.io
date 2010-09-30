@@ -3,26 +3,34 @@ layout: default
 title: Function
 ---
 
-[mime_content_type](http://php.net/manual/en/function.mime-content-type.php) — Detect MIME Content-type for a file (deprecated)
+[mime_content_type](http://php.net/manual/en/function.mime-content-type.php) - Detect MIME Content-type for a file (deprecated)
 
-[soundex](http://www.php.net/manual/en/function.soundex.php) — Calculate the soundex key of a string
+[soundex](http://www.php.net/manual/en/function.soundex.php) - Calculate the soundex key of a string
 
-[metaphone](http://www.php.net/manual/en/function.metaphone.php) — Calculate the metaphone key of a string
+[metaphone](http://www.php.net/manual/en/function.metaphone.php) - Calculate the metaphone key of a string
 
-[levenshtein](http://www.php.net/manual/en/function.levenshtein.php) — Calculate Levenshtein distance between two strings
+[levenshtein](http://www.php.net/manual/en/function.levenshtein.php) - Calculate Levenshtein distance between two strings
 
-[similar_text](http://www.php.net/manual/en/function.similar-text.php) — Calculate the similarity between two strings
+[similar_text](http://www.php.net/manual/en/function.similar-text.php) - Calculate the similarity between two strings
 
-[setlocale](http://www.php.net/manual/en/function.setlocale.php) — Set locale information
+[setlocale](http://www.php.net/manual/en/function.setlocale.php) - Set locale information
 
 [一些被忽视的 PHP 函数](http://www.gracecode.com/archives/3013/) - 很多没见过的函数
 
-[getimagesize](http://php.net/manual/en/function.getimagesize.php) — Get the size of an image
+[getimagesize](http://php.net/manual/en/function.getimagesize.php) - Get the size of an image
 
-[fpassthru](http://php.net/manual/en/function.fpassthru.php) — Output all remaining data on a file pointer
+[fpassthru](http://php.net/manual/en/function.fpassthru.php) - Output all remaining data on a file pointer
 
-[Alternative syntax for control structures](http://php.net/manual/en/control-structures.alternative-syntax.php) — PHP offers an alternative syntax for some of its control structures; namely, if, while, for, foreach, and switch. In each case, the basic form of the alternate syntax is to change the opening brace to a colon (:) and the closing brace to endif;, endwhile;, endfor;, endforeach;, or endswitch;, respectively.
+[Alternative syntax for control structures](http://php.net/manual/en/control-structures.alternative-syntax.php) - PHP offers an alternative syntax for some of its control structures; namely, if, while, for, foreach, and switch. In each case, the basic form of the alternate syntax is to change the opening brace to a colon (:) and the closing brace to endif;, endwhile;, endfor;, endforeach;, or endswitch;, respectively.
 
-[ucwords](http://php.net/manual/en/function.ucwords.php) — Returns a string with the first character of each word in str capitalized, if that character is alphabetic.
+[ucwords](http://php.net/manual/en/function.ucwords.php) - Returns a string with the first character of each word in str capitalized, if that character is alphabetic.
 
-[pcntl_fork](http://php.net/manual/en/function.pcntl-fork.php) — Forks the currently running process.
+[pcntl_fork](http://php.net/manual/en/function.pcntl-fork.php) - Forks the currently running process.
+
+[strpbrk](http://php.net/manual/en/function.strpbrk.php) - Search a string for any of a set of characters. 从一个字符串找出符合另一个字符串符合的部分，将其以及之后剩余的部分返回。
+
+[strspn](http://www.php.net/manual/en/function.strspn.php) - Finds the length of the first segment of a string consisting entirely of characters contained within a given mask. 返回在字符串中包含的特定字符的数目。
+
+This function is significantly faster for checking illegal characters than the equivalent preg_match() method.
+
+[strcspn](http://php.net/manual/en/function.strcspn.php) - Find length of initial segment not matching mask. 返回在找到任何指定的字符之前，在字符串查找的字符数。

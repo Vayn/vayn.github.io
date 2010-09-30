@@ -5,7 +5,7 @@ author: Vayn
 date: 2010-10-01
 categories:
   - think
-  - translation
+  - php
 ---
 
 刚看到一篇 [Rasmus Lerdorf](http://twitter.com/rasmus) 最新的有关 PHP 性能的[演讲](http://talks.php.net/show/digg/)，因为视频是放在 Vimeo 上的就不在文内嵌入了。演讲中说 PHP 一般情况下不会是性能瓶颈，并且以 WordPress 为例进行了一系列性能分析和优化。

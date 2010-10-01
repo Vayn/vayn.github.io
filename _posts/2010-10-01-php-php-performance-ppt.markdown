@@ -22,7 +22,7 @@ categories:
 >
 >• Check your assumptions.
 >
->• Real performance is architecture-drive.
+>• Real performance is architecture-driven.
 
 稍微翻译一下：
 

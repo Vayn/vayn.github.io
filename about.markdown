@@ -6,7 +6,23 @@ title: About
 ## About Me
 
 <img src="http://www.gravatar.com/avatar/0619de25d967ff4224263c94da32548c.png" class="callout" />
-This page is been building.
+年轻不知深浅，浪费几多光阴。
+
+熟练计算机地勤维护人员。中级 HTML &amp; CSS 机师，初级 PHP 机师，会操作 Linux 型机体，VIM （被）玩弄者……
+
+周一至周五晨跑，周六打篮球，周日踩滑板，节假日脚踏车自助游。
+
+身体状况看起来不错。
+
+管理学学士，合法会计从业资格，大学英语四级（至少阅读英文文档没什么问题:D），[VaynWords](http://vasa.sinaapp.com) 创造者，准备研究生考试中。
+
+喜欢《Cowboy Bebop》，Britpop，细腿软妹~
+
+电邮: vayn at vayn.de
+
+Gtalk: dreamx007 at gmail dot com
+
+-------
 
 The following feeds are subcribed by [Ben Ubois](http://benubois.com), and this site is also using his [source](http://github.com/benubois/benubois.com). Thank you.
 

@@ -34,3 +34,7 @@ title: Function
 This function is significantly faster for checking illegal characters than the equivalent preg_match() method.
 
 [strcspn](http://php.net/manual/en/function.strcspn.php) - Find length of initial segment not matching mask. 返回在找到任何指定的字符之前，在字符串查找的字符数。
+
+[str_split](http://php.net/manual/en/function.str-split.php) - Convert a string to an array.
+
+[str_word_count](http://php.net/manual/en/function.str-word-count.php) -Return information about words used in a string.

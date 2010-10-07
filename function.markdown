@@ -37,4 +37,8 @@ This function is significantly faster for checking illegal characters than the e
 
 [str_split](http://php.net/manual/en/function.str-split.php) - Convert a string to an array.
 
-[str_word_count](http://php.net/manual/en/function.str-word-count.php) -Return information about words used in a string.
+[str_word_count](http://php.net/manual/en/function.str-word-count.php) - Return information about words used in a string.
+
+[setcookie](http://php.net/manual/en/function.setcookie.php) - Send a cookie.
+
+[$_COOKIE](http://php.net/manual/en/reserved.variables.cookies.php) - An associative array of variables passed to the current script via HTTP Cookies.

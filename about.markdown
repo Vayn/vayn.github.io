@@ -18,9 +18,11 @@ title: About
 
 喜欢《Cowboy Bebop》，Britpop，细腿软妹~
 
-电邮: vayn at vayn.de
+Email: vayn at vayn.de
 
 Gtalk: dreamx007 at gmail dot com
+
+Location: Xi'an, China
 
 -------
 

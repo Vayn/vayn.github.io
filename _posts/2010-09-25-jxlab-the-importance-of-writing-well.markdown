@@ -51,4 +51,6 @@ categories:
 
 [如何修改自己的英文文章？之二](http://newgenerationresearcher.blogspot.com/2010/09/blog-post_26.html)
 
+[如何修改自己的英文文章？之三](http://newgenerationresearcher.blogspot.com/2010/10/blog-post.html)
+
 EOF

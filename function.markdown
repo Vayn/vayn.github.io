@@ -42,3 +42,9 @@ This function is significantly faster for checking illegal characters than the e
 [setcookie](http://php.net/manual/en/function.setcookie.php) - Send a cookie.
 
 [$_COOKIE](http://php.net/manual/en/reserved.variables.cookies.php) - An associative array of variables passed to the current script via HTTP Cookies.
+
+[assert](http://php.net/manual/en/function.assert.php) - assert() will check the given assertion and take appropriate action if its result is FALSE.
+
+[lcg_value](http://php.net/manual/en/function.lcg-value.php) - Combined linear congruential generator. lcg_value() returns a pseudo random number in the range of (0, 1).
+
+[getmypid](http://php.net/manual/en/function.getmypid.php) - Gets PHP's process ID.

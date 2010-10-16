@@ -48,3 +48,5 @@ This function is significantly faster for checking illegal characters than the e
 [lcg_value](http://php.net/manual/en/function.lcg-value.php) - Combined linear congruential generator. lcg_value() returns a pseudo random number in the range of (0, 1).
 
 [getmypid](http://php.net/manual/en/function.getmypid.php) - Gets PHP's process ID.
+
+[strtr](http://cn.php.net/manual/en/function.strtr.php) - Translate characters or replace substrings.

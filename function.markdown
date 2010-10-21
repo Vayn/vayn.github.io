@@ -49,4 +49,6 @@ This function is significantly faster for checking illegal characters than the e
 
 [getmypid](http://php.net/manual/en/function.getmypid.php) - Gets PHP's process ID.
 
-[strtr](http://cn.php.net/manual/en/function.strtr.php) - Translate characters or replace substrings.
+[strtr](http://php.net/manual/en/function.strtr.php) - Translate characters or replace substrings.
+
+[readdir](http://php.net/manual/en/function.readdir.php) - Returns the filename of the next file from the directory. The filenames are returned in the order in which they are stored by the filesystem.

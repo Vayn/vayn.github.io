@@ -11,16 +11,29 @@ title: '次世代 Jisedai NextGen'
         </p>
     </div>
     <div class="post-content span-15 last">
-        {{ site.posts.first.content }}
-        <p><a id="more" href="{{ site.posts.first.url }}#disqus_thread">comments &raquo;</a></p>
-        <p id="temp"><a style="background: none;" href="http://babelcollege.com/ask/entry.php?docid=d68259b65e22e2e277930e0b38a4dbc4"><img src="./images/468_60.png" alt="Let's read Justice!" style="margin:0;padding:0;" /></a></p>
+        {{ site.posts.first.content | truncatewords: 10 }}
+        <p><a id="more" href="{{ site.posts.first.url }}">Read More &raquo;</a><a style="float:right" href="{{ site.posts.first.url }}#disqus_thread">comments</a></p>
     </div>
 </div>
 <div class="container post separator">
-    <div class="post-meta span-2">
-        <p><h3>all posts</h3></p>
+    <div class="post-meta span-3">
+        <p><h3>ALL POSTS</h3></p>
     </div>
     <div class="post-content span-15 last">
         {% for post in site.posts %}<li class="post"><span>{{ post.date | date: "%b %d, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
     </div>
 </div>
+<script type="text/javascript"> 
+//<![CDATA[
+(function() {
+		var links = document.getElementsByTagName('a');
+		var query = '?';
+		for(var i = 0; i < links.length; i++) {
+			if(links[i].href.indexOf('#disqus_thread') >= 0) {
+				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+			}
+		}
+		document.write('<script type="text/javascript" src="http://disqus.com/forums/vayn/get_num_replies.js' + query + '"></' + 'script>');
+	})();
+//]]>
+</script>

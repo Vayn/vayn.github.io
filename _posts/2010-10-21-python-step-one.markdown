@@ -75,8 +75,7 @@ class Person:
         if self.name in self.dict.keys():
             del self.dict[self.name]
             print 'Delete successfully!'
-            self.w = file(Person.dictfile, 'w')
-            p.dump(self.dict, self.w)
+            p.dump(self.dict, file(Person.dictfile, 'w'))
         else:
             print 'This name is not in address book'
 

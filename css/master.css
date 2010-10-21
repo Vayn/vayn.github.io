@@ -267,7 +267,7 @@ li {
 }
 
 .in-content {
-    font-size: 16px;
+    font-size: 17px;
     font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
     color: #1D1916;
 }
@@ -282,8 +282,7 @@ li {
     padding-bottom: 10px;
     margin-bottom: 18px;
     border-bottom: 1px solid #333;
-    font-weight: 700;
-    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+    font: 700 20px "Palatino Linotype","Book Antiqua",Palatino,serif;
 }
 
 .post-meta p {

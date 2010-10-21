@@ -264,11 +264,11 @@ li {
 .post {
     padding: .5em 0 0;
     margin: .5em 0 0;
-    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
 }
 
 .in-content {
     font-size: 16px;
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
     color: #1D1916;
 }
 

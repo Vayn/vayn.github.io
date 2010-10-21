@@ -3,13 +3,9 @@ layout: default
 ---
 
 <div class="post container">
-    <h2>{{ page.title }}</h2>
-    <div class="post-meta span-3">
-        <p>
-            <strong>{{ page.date | date: "%B %d, %Y" }}</strong>
-        </p>
-    </div>
-    <div class="post-content span-15 last">
+    <h2 id="content">{{ page.title }}</h2>
+    <div class="span-1">&nbsp;</div>
+    <div class="in-content span-18 last">
         {{ content }}
     </div>
 </div>

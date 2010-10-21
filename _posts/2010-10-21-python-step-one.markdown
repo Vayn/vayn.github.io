@@ -38,7 +38,6 @@ class Person:
     def __del__(self):
         try:
             self.r.close()
-            self.w.close()
         except:
             pass
 

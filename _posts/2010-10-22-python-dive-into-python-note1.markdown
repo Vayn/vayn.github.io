@@ -31,7 +31,7 @@ categories:
 
 11) Lists 也可以用 + 运算符连接起来。list = list + otherlist 相当于 list.extend(otherlist)。 但 + 运算符把一个新 (连接后) 的 list 作为值返回, 而 extend 只修改存在的 list。 也就是说, 对于大型 list 来说, extend 的执行速度要快一些。(325)
 
-12) Python 支持 `+=` 运算符。三元描述符：[V1 if X else V2](http://www.vimer.cn/2010/09/python%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%96%B9%E6%B3%95.html)。`*` 运算符可以作为一个重复器作用于 list。 li = [1, 2] * 3 等同于 li = `[1, 2]` + `[1, 2]` + `[1, 2]`, 即将三个 list 连接成一个。[把 list 作为堆栈和队列使用](http://www.python.org/doc/current/tut/node7.html#SECTION007110000000000000000) 。[所有的 list 方法](http://www.python.org/doc/current/lib/typesseq-mutable.html) 。(325)
+12) Python 支持 `+=` 运算符。`*` 运算符可以作为一个重复器作用于 list。 li = [1, 2] * 3 等同于 li = `[1, 2]` + `[1, 2]` + `[1, 2]`, 即将三个 list 连接成一个。[把 list 作为堆栈和队列使用](http://www.python.org/doc/current/tut/node7.html#SECTION007110000000000000000) 。[所有的 list 方法](http://www.python.org/doc/current/lib/typesseq-mutable.html) 。(325)
 
 13) Tuple 是不可变 list。 一旦创建了一个 tuple 就不能以任何方式改变它。与 list 一样分片 (slice) 也可以使用。注意当分割一个 list 时, 会得到一个新的 list ；当分割一个 tuple 时, 会得到一个新的 tuple。Tuple 没有方法。Tuples 可以在 dictionary 中被用做 key, 但是 list 不行。Tuple 本身是不可改变的, 但是如果您有一个 list 的 tuple, 那就认为是可变的了, 用做 dictionary key 就是不安全的。只有字符串, 整数或其它对 dictionary 安全的 tuple 才可以用作 dictionary key。Tuple 本身是不可改变的, 但是如果您有一个 list 的 tuple, 那就认为是可变的了, 用做 dictionary key 就是不安全的。只有字符串, 整数或其它对 dictionary 安全的 tuple 才可以用作 dictionary key。(330)
 

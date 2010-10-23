@@ -97,7 +97,7 @@ def __setitem__(self, key, item): self.data[key] = item
 
 61) 在 Python 中，通过使用 str1 is str2 可以决定两个字符串变量是否指向同一块物理内存位置，这叫做 _对象同一性_。在 Python 中比较两个字符串值，你要使用 str1 == str2，这被称作 _对象确定（object identity）_。(570)
 
-62) 在 Python 中，只有类属性（类的变量）是紧跟在类定义之后定义的，数据属性（对象的变量）定义在 __init__ 方法中（[类与对象的方法](http://woodpecker.org.cn/abyteofpython_cn/chinese/ch11s06.html "简明 Python 教程")）。(570)
+62) 在 Python 中，只有类属性（类的变量）是紧跟在类定义之后定义的，数据属性（对象的变量）定义在 __init__ 方法中（[类与对象的方法](http://woodpecker.org.cn/abyteofpython_cn/chinese/ch11s06.html)）。(570)
 
 63) 类属性可以作为类级别的常量来使用（这就是为什么我们在 MP3FileInfo 中使用它们），但是它们不是真正的常量。你也可以修改它们。在 Python 中没有常量。(570)
 

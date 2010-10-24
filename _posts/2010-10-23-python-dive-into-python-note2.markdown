@@ -21,7 +21,7 @@ categories:
 
 26) 任何可调用的对象都有 doc string。通过将 callable 函数作用于一个对象的每个属性，可以确定哪些属性（方法、函数、类）是你要关注的，哪些属性（常量等等）是你可以忽略、之前不需要知道的。(432)
 
-27) type、str、dir 和其它的 Python 内置函数都归组到了 __builtin__ （前后分别是双下划线）这个特殊的模块中。你可以认为 Python 在启动时自动执行了 from __builtin__ import *。(433)
+27) type、str、dir 和其它的 Python 内置函数都归组到了 \__builtin__ （前后分别是双下划线）这个特殊的模块中。你可以认为 Python 在启动时自动执行了 from \__builtin__ import \*。(433)
 
 28) 注意 li.pop 并不是调用 pop 方法；调用 pop 方法的应该是 li.pop()。这里指的是方法对象本身。(440)
 
@@ -67,7 +67,7 @@ count 是一个列表方法，返回某个值在列表中出现的次数。(450)
 
 过滤表达式。如果 object 是一个模块，并且 method 是上述模块中某个函数的名称，那么表达式 getattr(object, method) 将返回一个函数对象。
 
-所以这个表达式接收一个名为 object 的对象，然后得到它的属性、方法、函数和其他部件的名称列表，接着过滤掉我们不关心的部件。执行过滤行为是通过对每个属性/方法/函数的名称调用 getattr 函数取得实际部件的引用，然后检查这些部件对象是否是可调用的，当然这些可调用的部件对象可能是方法或者函数，同时也可能是内置的（比如列表的 pop 方法）或者用户自定义的（比如 odbchelper 模块的 buildConnectionString 函数）。这里你不用关心其它的属性，如内置在每一个模块中的 __name__ 属性。
+所以这个表达式接收一个名为 object 的对象，然后得到它的属性、方法、函数和其他部件的名称列表，接着过滤掉我们不关心的部件。执行过滤行为是通过对每个属性/方法/函数的名称调用 getattr 函数取得实际部件的引用，然后检查这些部件对象是否是可调用的，当然这些可调用的部件对象可能是方法或者函数，同时也可能是内置的（比如列表的 pop 方法）或者用户自定义的（比如 odbchelper 模块的 buildConnectionString 函数）。这里你不用关心其它的属性，如内置在每一个模块中的 \__name__ 属性。
 
 35) 在Python 中，and 和 or 执行布尔逻辑演算，如你所期待的一样，但是它们并不返回布尔值；而是，返回它们实际进行比较的值之一。0、''、\[\]、()、{}、None 在布尔上下文中为假；其它任何东西都为真。(460)
 
@@ -142,7 +142,7 @@ processFunc 现在是一个函数，但是它到底是哪一个函数还要取�
 
 `getattr(object, method).__doc__` 动态得到 doc string。
 
-str 是一个内置函数，它可以 [强制将数据转化为字符串](http://woodpecker.org.cn/diveintopython/power_of_introspection/built_in_functions.html)。但是一个 doc string 应该总是一个字符串，为什么还要费事的使用 str 函数呢？答案就是：不是每个函数都有 doc string ，如果没有，这个 __doc__ 属性为 None。
+str 是一个内置函数，它可以 [强制将数据转化为字符串](http://woodpecker.org.cn/diveintopython/power_of_introspection/built_in_functions.html)。但是一个 doc string 应该总是一个字符串，为什么还要费事的使用 str 函数呢？答案就是：不是每个函数都有 doc string ，如果没有，这个 \__doc__ 属性为 None。
 
 在 SQL 中，你必须使用 IS NULL 代替 = NULL 进行 null 值比较。在 Python，你可以使用 == None 或者 is None 进行比较，但是 is None 更快。
 

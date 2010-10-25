@@ -8,13 +8,13 @@ categories:
   - DIY
 ---
 
-[TAPP](http://zdxia.com/2y0G)（点击下载）是由 [disinfeqt](http://zdxia.com) 发起的项目。
+[TAPP](http://zdxia.com/2xbz )（点击下载）是由 [disinfeqt](http://zdxia.com) 发起的项目。
 
-[TAPP](http://zdxia.com/2y0G) 的目标：用最简单的手段展示你的 Twitter，无须过多设置。
+[TAPP](http://zdxia.com/2xbz ) 的目标：用最简单的手段展示你的 Twitter，无须过多设置。
 
 <p style="text-align:center;"><img src="/images/archive/tapp1.png" alt="TAPP" /></p>
 
-[TAPP](http://zdxia.com/2y0G) 的界面设计由 [disinfeqt](http://zdxia.com) 完成，后端代码由 [Vayn](http://elnode.com) 完成。
+[TAPP](http://zdxia.com/2xbz ) 的界面设计由 [disinfeqt](http://zdxia.com) 完成，后端代码由 [Vayn](http://elnode.com) 完成。
 
 TAPP 的安装共分为两步：一、将 TAPP 上传到服务器；二、设置文件夹权限为 775。结束。
 
@@ -61,7 +61,7 @@ Output 为输出格式，有 HTML，JSON 和 RSS 三种格式可以选择。下�
 
 在 TAPP 最新的 0.9.2 版中加入了测试功能——输出图片，在这里特别感谢 [Sai](http://twitter.com/saic) ，这个功能的原始代码及模板均来自于 [Parasy](http://saicn.com/get_parasy/) 项目。
 
-使用输出功能需要你自己找一个支持中文的 TrueType 字体（我推荐文泉驿开源字体），改名 wqy.ttc 后放入 nowhere 文件夹。然后访问一下 nowhere.php 就能看到效果了。
+使用输出功能需要你自己找一个支持中文的 TrueType 字体（我推荐文泉驿开源字体），改名 wqy.ttc 后放入 show 文件夹。然后访问一下 show.php 就能看到效果了。
 
 <p style="text-align:center;"><img src="/images/archive/tapp5.png" alt="TAPP" /></p>
 

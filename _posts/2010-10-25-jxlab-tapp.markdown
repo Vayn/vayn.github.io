@@ -8,13 +8,13 @@ categories:
   - DIY
 ---
 
-[TAPP](http://zdxia.com/2xbz )（点击下载）是由 [disinfeqt](http://zdxia.com) 发起的项目。
+[TAPP](http://zdxia.com/2xbz )（点击下载）是由 [disinfeqt](http://www.zdxia.com) 发起的项目。
 
 [TAPP](http://zdxia.com/2xbz ) 的目标：用最简单的手段展示你的 Twitter，无须过多设置。
 
 <p style="text-align:center;"><img src="/images/archive/tapp1.png" alt="TAPP" /></p>
 
-[TAPP](http://zdxia.com/2xbz ) 的界面设计由 [disinfeqt](http://zdxia.com) 完成，后端代码由 [Vayn](http://elnode.com) 完成。
+[TAPP](http://zdxia.com/2xbz ) 的界面设计由 [disinfeqt](http://www.zdxia.com) 完成，后端代码由 [Vayn](http://elnode.com) 完成。
 
 TAPP 的安装共分为两步：一、将 TAPP 上传到服务器；二、设置文件夹权限为 775。结束。
 

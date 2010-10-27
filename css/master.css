@@ -149,7 +149,7 @@ a:hover,a:active {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight:normal;
-    font-family: liberation-sans-1, liberation-sans-2, Helvetica, Arial sans-serif;
+    font-family: liberation-sans-1, liberation-sans-2, Helvetica, Arial, sans-serif;
 }
 
 h2 {

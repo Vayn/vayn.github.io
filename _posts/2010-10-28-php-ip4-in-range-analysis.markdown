@@ -59,14 +59,14 @@ function ip4_in_range ($ip, $start, $end = null) {
             // 将最后一段的 wildcard 换成 0
             // 这样就构成了一个合法的 ip 范围
             $start = str_replace('*', 0, $start);
-        } elseif (strpos($start, '/') !== false) { // 传入的 $start 是 CDIR 地址块的情况
+        } elseif (strpos($start, '/') !== false) { // 传入的 $start 是 CIDR 地址块的情况
             // 将 $ip 转换为整数
             $ip_dec = ip2long($ip);
 
             // 把 $start 分为 $range 和 $netmask（掩码） 两部分
             list($range, $netmask) = explode('/', $start);
 
-            // 把 CDIR 形式的 $netmask 用 intval 转换（我觉得好像没必要）
+            // 把 CIDR 形式的 $netmask 用 intval 转换（我觉得好像没必要）
             // 然后用公式 2^(32-netmask)-1 算出不可用的范围（我觉得应该减2，Hmm）http://goo.gl/VWfS
             // 再用位运算符 ~ 按位非，获得反值（这块不明白，求解）
             // 最后获得了 netmask

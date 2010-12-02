@@ -2,7 +2,7 @@
 layout: post
 title: '{Diary} Software List'
 author: Vayn
-date: 2010-10-31
+date: 2010-12-03
 categories:
   - diary
 ---
@@ -27,6 +27,6 @@ categories:
 18. Flagfox (fx)
 19. Faenze (theme)
 
-其它常用工具不在此列
+常用工具不在此列
 
 EOF

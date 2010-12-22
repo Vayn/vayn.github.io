@@ -36,7 +36,7 @@ Shorter 有两种玩法：1是 `./Shorter Url`，也就是命令后接超链接�
 
 >Your link has been shortened as [http://vayn.de/BwP4D](http://vayn.de/BwP4D)
 >
->and it has been copyed into clipboard, you can paste it anywhere!
+>and it has been copied into clipboard, you can paste it anywhere!
 
 没错，网址已经自动存在于你的剪贴板了，现在你可以四处分发你的短链了！当然如果你
 是 Windows 用户就麻烦点手动复制吧，囧rz。
@@ -70,7 +70,7 @@ clip = 'echo "%s" | xsel -b -i' % shorten
 os.system(clip)
 
 print '''\nYour link has been shortened as %s\r
-and it has been copyed into clipboard, you can paste it anywhere!\n''' % shorten
+and it has been copied into clipboard, you can paste it anywhere!\n''' % shorten
 {% endhighlight %}
 
 接下来是 PHP 吹替版……
@@ -120,7 +120,7 @@ $clip = "echo \"$short\" | xsel -b -i";
 shell_exec($clip);
 
 echo "\nYour link has been shortened as {$short}\r
-and it has been copyed into clipboard, you can paste it anywhere!\n";
+and it has been copied into clipboard, you can paste it anywhere!\n";
 ?>
 {% endhighlight %}
 

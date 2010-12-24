@@ -65,8 +65,21 @@ shorten = xmldoc.getiterator("shorten")[0].attrib['short']
 clip = 'echo "%s" | xsel -b -i' % shorten
 os.system(clip)
 
-print '''\nYour link has been shortened as %s\r
-and it has been copied into clipboard, you can paste it anywhere!\n''' % shorten
+text1 = 'Your link has been shortened as %s' % shorten
+text2 = 'has been copied into clipboard, you can paste it anywhere!'
+
+screen_width = 80
+text_width = len(text2)
+dist = text_width - len(text1)
+box_width = text_width + 6
+left_margin = (screen_width-box_width) // 2
+
+print ' ' * left_margin + '+'   + '-' * (box_width - 2) +   '+'
+print ' ' * left_margin + '|  ' + ' ' * text_width      + '  |'
+print ' ' * left_margin + '|  ' +       text1+' '*dist  + '  |'
+print ' ' * left_margin + '|  ' +       text2           + '  |'
+print ' ' * left_margin + '|  ' + ' ' * text_width      + '  |'
+print ' ' * left_margin + '+'   + '-' * (box_width - 2) +   '+'
 {% endhighlight %}
 
 接下来是 PHP 吹替版……
@@ -121,6 +134,8 @@ and it has been copied into clipboard, you can paste it anywhere!\n";
 {% endhighlight %}
 
 update: 貌似 xfruits 歇菜了？唉，又一家 web 2.0 服务关门。
+update: xfruits 又能访问了，不过不打算再用了。另外把 python 版的输出稍微美化了
+下。
 
 EOF
 

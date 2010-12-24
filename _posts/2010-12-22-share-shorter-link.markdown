@@ -134,6 +134,7 @@ and it has been copied into clipboard, you can paste it anywhere!\n";
 {% endhighlight %}
 
 update: 貌似 xfruits 歇菜了？唉，又一家 web 2.0 服务关门。
+
 update: xfruits 又能访问了，不过不打算再用了。另外把 python 版的输出稍微美化了
 下。
 

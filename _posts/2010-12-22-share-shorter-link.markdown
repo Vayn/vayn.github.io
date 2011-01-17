@@ -42,10 +42,10 @@ Shorter 有两种玩法：1是 `./Shorter Url`，也就是命令后接超链接�
 {% highlight python %}
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
-import sys
-import os
+import os, sys
 import urllib2, urllib
 from xml.etree import ElementTree
+from lxml.html
 
 key = 'YOURAPIKEY' # 注意替换
 try:
@@ -53,6 +53,9 @@ try:
 except IndexError:
     url = raw_input("Please type Url you want to shorten: ")
 url = 'http://' + url.replace('http://', '')
+
+page = lxml.html(url)
+title = page.find(".//title").text.strip().encode('utf-8')
 
 param = urllib.urlencode([('key', key), ('url', url)])
 req = urllib2.Request('http://api.dlvr.it/1/shorten.xml')
@@ -62,7 +65,7 @@ data = ch.read()
 xmldoc = ElementTree.fromstring(data)
 shorten = xmldoc.getiterator("shorten")[0].attrib['short']
 
-clip = 'echo "%s" | xsel -b -i' % shorten
+clip = 'echo "%s: %s" | xsel -b -i' % (title, shorten)
 os.system(clip)
 
 text1 = 'Your link has been shortened as %s' % shorten
@@ -137,6 +140,8 @@ update: 貌似 xfruits 歇菜了？唉，又一家 web 2.0 服务关门。
 
 update: xfruits 又能访问了，不过不打算再用了。另外把 python 版的输出稍微美化了
 下。
+
+2011-01-17: 给 Python 版 Shorter 添加网页标题解析。
 
 EOF
 

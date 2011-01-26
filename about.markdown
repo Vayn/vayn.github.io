@@ -14,7 +14,7 @@ title: About
 
 身体状况看起来不错。
 
-管理学学士，合法会计从业资格，大学英语四级（至少阅读英文文档没什么问题:D），[VaynWords](http://vasa.sinaapp.com) 创造者，准备研究生考试中。
+管理学学士，合法会计从业资格，大学英语四级（至少阅读英文文档没什么问题:D），[VaynWords](http://vasa.sinaapp.com) 创造者。
 
 喜欢《Cowboy Bebop》，Britpop，细腿软妹~
 
@@ -24,35 +24,35 @@ Gtalk: dreamx007 at gmail dot com
 
 keyID 0x551FBCF8 at keyserver.ubuntu.com, created at 2011-01-06, expires at 2016-01-05
 
------BEGIN PGP PUBLIC KEY BLOCK-----
+-----BEGIN PGP PUBLIC KEY BLOCK-----    
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-mQENBE0kwMMBCADH176U44vL0fKP6/OfDEQmzBykSHqttQqQt+HQ/LW+rUPqP5Mz
-zkWRb0PdfVUipxTJcBDWJ6joJl4kgFFmWSnh0VAFdLUFMc/zq/Yu4CaKq8xZmlol
-w+MthBLA4A4KM0J8vsn75bBYrSlbkwl2HnACoKDcL5A8FXzBpdI5L6J+GC563g7J
-rICxjwDL6lutdyhF8cJ53qCumRp2DsnW0AcVMbw3z3afWI0y9zgku+a1haIFduz0
-C2P2drLW9RiKu/c/zm48huxcmSJqhBA7UnVBsQQlYhw8IQu5J2hxPa0RvHG6Ut2H
-oq+dpBy5hFqmRpjY49M/a0A07rnzImbhoKBtABEBAAG0GFZheW4gKFZUKSA8dmF5
-bkB2YXluLmRlPokBPgQTAQIAKAUCTSTAwwIbAwUJCWYBgAYLCQgHAwIGFQgCCQoL
-BBYCAwECHgECF4AACgkQXnd59VUfvPi9dgf/Qkv1ol4XvfR9+TiPPxHYd0nDT5f3
-MhLXzzl0JI6904enaxaUpV7cePMizjR6ej/EPvP+Ns8pS4P5mG3mq96Lm2atmMa0
-6uqLmQge+c9raCKc9VU6n4SD3wK6s8tN0ZJpLY4EVf5tcwmb4hWei7Chazitv9Fi
-i9SXytqrKNhfKlQLCFqzGsyrCV+I5baqG/vwaEQhSKB7clYH8jVzLYPDz4+KvHPW
-eaPh1A5JcYUsDNiWbaEfFxhCNU9zjLFN0tfCzO0c0cJBpDufjaSW7F8tEKeWb7S3
-0mzKQYU0VZzg8HoyDW/NuialNMr22SfGCP6RlMAqrdqnnMTXsMOGXGai57kBDQRN
-JMDDAQgAuoFxnHaXUZx1QRmeDiTYoVJqTPLm8/3iYFuMx2Wr4uzTns+1AwkiaUDc
-RU9Rn6SrvQq3+RVJwEAo9kwniBfp2M1CO/JHBTmCZL3mRe93OnNBiHFBvsi2RNLt
-x5X0hSPGtxi31sGgF788ffcuuxrUeHj8xNAee5udpK+zMz+i0I70nvYAaVz7C8ae
-Q7yf7pRNDI11MW3oWh6hddK8qZ1Lnc9PMfntMJ7qoqfBqoaEPpMGhKf096v39wyU
-RmhqUW6Isc1rzfqeLPUTTh0rviwvIw7qtiXVL86mEKAxO2kcH/qnTW6DmmzL7bjr
-VXxHyhvJDpT8NGy76wdhyPZ+ELOIBwARAQABiQElBBgBAgAPBQJNJMDDAhsMBQkJ
-ZgGAAAoJEF53efVVH7z4PEYH/RXofiWOi5p9Kh1P4khn/DqWgn0rytzo3xJ9d1qF
-iWFjK5P1UJNW79ZDx70td6wZzI0lD0J36JVsops/MI0pt5EdRWtt5NbzDAUM52Zg
-0DfblKn7OkC6T1aOF/l64EXuoGWU3qKFfI4n9+5JpQLrAj6dwM24ICdxoFLuCGFZ
-rPbT7q2qDz/UI0VJnBPu7qktoIEHoQ4Sjx1/8Mb9eK8e8mo1H4t1DMhRnVI7PnF9
-jWRxgyqovntmzL3B6sr974easqunvmnVXht6zKm6kvEKz33dmFHHsL7S59/wcQrB
-bw4UemdodCB3uuc4MbY8nVW5ugY4b9JL1fL+ZD7mfGRoOj0=
-=Sxgv
+mQENBE0kwMMBCADH176U44vL0fKP6/OfDEQmzBykSHqttQqQt+HQ/LW+rUPqP5Mz    
+zkWRb0PdfVUipxTJcBDWJ6joJl4kgFFmWSnh0VAFdLUFMc/zq/Yu4CaKq8xZmlol    
+w+MthBLA4A4KM0J8vsn75bBYrSlbkwl2HnACoKDcL5A8FXzBpdI5L6J+GC563g7J    
+rICxjwDL6lutdyhF8cJ53qCumRp2DsnW0AcVMbw3z3afWI0y9zgku+a1haIFduz0    
+C2P2drLW9RiKu/c/zm48huxcmSJqhBA7UnVBsQQlYhw8IQu5J2hxPa0RvHG6Ut2H    
+oq+dpBy5hFqmRpjY49M/a0A07rnzImbhoKBtABEBAAG0GFZheW4gKFZUKSA8dmF5    
+bkB2YXluLmRlPokBPgQTAQIAKAUCTSTAwwIbAwUJCWYBgAYLCQgHAwIGFQgCCQoL    
+BBYCAwECHgECF4AACgkQXnd59VUfvPi9dgf/Qkv1ol4XvfR9+TiPPxHYd0nDT5f3    
+MhLXzzl0JI6904enaxaUpV7cePMizjR6ej/EPvP+Ns8pS4P5mG3mq96Lm2atmMa0    
+6uqLmQge+c9raCKc9VU6n4SD3wK6s8tN0ZJpLY4EVf5tcwmb4hWei7Chazitv9Fi        
+i9SXytqrKNhfKlQLCFqzGsyrCV+I5baqG/vwaEQhSKB7clYH8jVzLYPDz4+KvHPW    
+eaPh1A5JcYUsDNiWbaEfFxhCNU9zjLFN0tfCzO0c0cJBpDufjaSW7F8tEKeWb7S3    
+0mzKQYU0VZzg8HoyDW/NuialNMr22SfGCP6RlMAqrdqnnMTXsMOGXGai57kBDQRN    
+JMDDAQgAuoFxnHaXUZx1QRmeDiTYoVJqTPLm8/3iYFuMx2Wr4uzTns+1AwkiaUDc    
+RU9Rn6SrvQq3+RVJwEAo9kwniBfp2M1CO/JHBTmCZL3mRe93OnNBiHFBvsi2RNLt    
+x5X0hSPGtxi31sGgF788ffcuuxrUeHj8xNAee5udpK+zMz+i0I70nvYAaVz7C8ae    
+Q7yf7pRNDI11MW3oWh6hddK8qZ1Lnc9PMfntMJ7qoqfBqoaEPpMGhKf096v39wyU    
+RmhqUW6Isc1rzfqeLPUTTh0rviwvIw7qtiXVL86mEKAxO2kcH/qnTW6DmmzL7bjr    
+VXxHyhvJDpT8NGy76wdhyPZ+ELOIBwARAQABiQElBBgBAgAPBQJNJMDDAhsMBQkJ    
+ZgGAAAoJEF53efVVH7z4PEYH/RXofiWOi5p9Kh1P4khn/DqWgn0rytzo3xJ9d1qF    
+iWFjK5P1UJNW79ZDx70td6wZzI0lD0J36JVsops/MI0pt5EdRWtt5NbzDAUM52Zg    
+0DfblKn7OkC6T1aOF/l64EXuoGWU3qKFfI4n9+5JpQLrAj6dwM24ICdxoFLuCGFZ    
+rPbT7q2qDz/UI0VJnBPu7qktoIEHoQ4Sjx1/8Mb9eK8e8mo1H4t1DMhRnVI7PnF9    
+jWRxgyqovntmzL3B6sr974easqunvmnVXht6zKm6kvEKz33dmFHHsL7S59/wcQrB    
+bw4UemdodCB3uuc4MbY8nVW5ugY4b9JL1fL+ZD7mfGRoOj0=    
+=Sxgv   
 -----END PGP PUBLIC KEY BLOCK-----
 
 -------

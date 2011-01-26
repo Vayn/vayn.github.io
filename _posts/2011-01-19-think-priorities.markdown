@@ -13,8 +13,7 @@ Insterpaper 的 icon 里隐藏着的一篇文章，这篇文章的主题是关�
 当你按下 Insterpaper 的 “Later” 按钮时，有没有想过为什么要按下它。这篇文章为什么不值得现在读，应该什么时候读？
 
 你选择将其推后阅读的时候，也就是说你认为现在有更重要的事情做。有意思的问题来了
-——你凭什么这么认为？而且你认为自己有更重要的事情要去做的话，你怎么还没去做，反
-而有时间去评价一篇文章不值得现在读？
+——你凭什么这么认为？而且你认为自己有更重要的事情要去做的话，你怎么还没去做，反而有时间去评价一篇文章不值得现在读？
 
 我自知翻译水平有限，欢迎各位指点。
 
@@ -26,18 +25,15 @@ Insterpaper 的 icon 里隐藏着的一篇文章，这篇文章的主题是关�
 
 Thanks to my [funny](http://twitter.com/jbj/status/1612747284), literary pal, [Jason](http://jbj.wordherders.net/) B. [Jones](http://twitter.com/jbj), today, I'm visiting lovely, warm Connecticut to do [some talks and whatnot](http://www.ccsu.edu/itc/mann/mann.html) at CCSU. I mention it because I'd started typing this little post mid-way through the long eastbound flight that delivered me here from three fun (but very long) days doing a [comedy thing](http://www.bridgetowncomedyfestival.com/) with [You Look Nice Today](http://youlooknicetoday.com/) and [Jordan, Jesse, Go!](http://www.maximumfun.org/blog/labels/jjgo.html) over on that other, top-left, edge of our nation.
 
-感谢我风趣的笔友 Jason B. Jones，现在我正在可爱又温暖的 Connecticut 进行访问并
-在 CCSU 做讨论和别的事情。我言及此是因为我是在飞往东边的长途航班上写作这篇小文章的，在来这里之前的有趣（而漫长）的三天里，我和 You Look Nice Today 以及 Jordan,Jesse,Go! 在这个国家的左上边做了一次喜剧表演。
+感谢我风趣的笔友 Jason B. Jones，现在我正在可爱又温暖的 Connecticut 进行访问并在 CCSU 做些讨论和别的事情。我言及此是因为我是在飞往东边的长途航班上写作这篇小文章的，在来这里之前的有趣（而漫长）的三天里，我和 You Look Nice Today 以及 Jordan,Jesse,Go! 在这个国家的左上边做了一次喜剧表演。
 
 So, I was tired. Really tired. The kind of tired where your wallet hurts your butt, and coffee tastes weird, and you try super-hard to sleep, but -- well -- you're just too tired to sleep. And, I was fine with all that. Who can complain about being sleepy from hanging out with [Adam](http://lonelysandwich.com/) and [Scott](http://yourmonkeycalled.com/)? Exactly.
 
-所以我有些疲倦。真的很累。这种累就像你的钱包咯着屁股或者咖啡尝起来很诡异，并
-且你超想睡觉，但呃，你太累了反而睡不好。不过面对这些我还是很好。没错，谁会因为与 Adam 和 Scott 一起闲逛而抱怨太累？
+所以我有些疲倦。真的很累。这种累就像你的钱包咯着屁股，或者咖啡尝起来很诡异，并且你超想睡觉，但呃，你太累了反而睡不好。不过面对这些我觉得还好。没错，谁会因为与 Adam 和 Scott 一起闲逛而抱怨太累？
 
 Except. The lady in the seat directly behind me was having grave problems with her "[mud room](http://www.google.com/search?client=safari&rls=en-us&q=mud+room&ie=UTF-8&oe=UTF-8)." Big mud room problems. I know this because she talked about it for several hours in excruciating detail.
 
-除了，我正后方位置座位上的女士有个关于玄关的严重问题。我知道这对她而言是个大问
-题，因为她已经花了数小时喋喋不休那些折磨人的细节。
+除了，我正后方位置座位上的女士有个关于玄关的严重问题。我知道这对她而言是个大问题，因为她已经花了数小时喋喋不休那些折磨人的细节。
 
 I'll spare you the nuts and bolts of the numerous and surprising ways that the room in which wealthy persons remove their shoes might contribute to causing a carefully-coiffed, 60-year-old woman to come unglued over "priorities." Suffice to say, fixing this problem was a "high priority" for her. So, she said, repeatedly, as I shifted my wallet, let my coffee go cold, and balled the little blue pillow under my neck.
 
@@ -45,7 +41,7 @@ I'll spare you the nuts and bolts of the numerous and surprising ways that the r
 
 "Priority! Mud room!" I audibly mumbled, just loud enough to be heard exactly one row back.
 
-“优先考虑！玄关！”我听到喃喃自语，那声音恰好大到可以被后面的一排听到。
+“优先考虑！玄关！”我听到喃喃自语，那声音恰好大到可以被另一排听到。
 
 <hr />
 
@@ -58,7 +54,7 @@ Me? I think priorities are simple to understand precisely because their influenc
 我？我认为优先事项可以很容易的精确理解，因为它们的影响力太明显且无法忽视，然后
 按其行事。准备好了吗？
 
-<strong>A priority is observed, not manufactured or assigned. Otherwise, it's necessarily <em>not</em> a priority.</strong>
+<strong>A priority is observed, not manufactured or assigned. Otherwise, it's necessarily <em>not</em> a priority.</strong>     
 
 <strong>所谓优先事项，是被察觉到的，不是被制造出来的或是被分派的。否则，它必然就<em>不是</em>一个优先事项。</strong>
 
@@ -92,7 +88,7 @@ This is why I say priorities can only be observed. In my book, a priority is not
 
 Even though their influence informs every decision we make on the most tactical level, thinking about priorities happens at a strategic, "why am I here?" level. Right? Maybe? Disagree? Pretty sure you can make priorities like biscuits or shuffle them around like Monopoly pieces?
 
-尽管它们的影响力几乎贯穿我们在战术层级上所做的每一个决定，想想优先事项发生一个“为什么我会在这儿”的战略层级上。对吗？也许？反对？相当肯定你可以像做饼干那样确定优先事项，或者像洗强手棋那样对它们进行排列？
+尽管它们的影响力几乎贯穿我们在战术层级上所做的每一个决定，想想优先事项发生在一个“为什么我会在这儿”的战略层级上。对吗？也许？反对？相当肯定你可以像做饼干那样确定优先事项，或者像洗强手棋那样对它们进行排列？
 
 Got news for you, Jack: if it moves, it's not a priority. It's just a thing you haven't done yet.
 

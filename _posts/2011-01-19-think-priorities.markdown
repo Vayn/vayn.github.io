@@ -109,7 +109,7 @@ Related example. You ever had a loved one -- especially a very young relative --
 
 And, let's be clear: this is not all about "urgency." Yes, an injured child and a grieving family need help now in a way that an M&A discussion or a CPR class may not. But, again. It's not a question of order or shuffling. It's a question of brutally honest decision-making and constantly saying, "No, I have another thing to take care of."
 
-当然，让我们明确一点：这不全都和“紧急事件”有关。是的，现在一个受伤的孩子或一个悲痛的家庭需要某种程度的帮助，而 M&A 讨论或者 CPR 课或许不需要。但是再重申一次。这不是一个有关排列组合的问题。这是一个你能不能心直口快地做出决策，并且不断地说“抱歉，我有其他事必须要做”的问题。
+当然，让我们明确一点：这不全都和“紧急事件”有关。是的，现在一个受伤的孩子或一个悲痛的家庭需要某种程度的帮助，而 M&A 讨论或者 CPR 课或许不需要。但是再重申一次。这不是一个有关顺序组合的问题。这是一个你能不能心直口快地做出决策，并且不断地说“抱歉，我有其他事必须要做”的问题。
 
 Day One Buddhism.
 

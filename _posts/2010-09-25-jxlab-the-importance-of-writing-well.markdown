@@ -10,7 +10,7 @@ categories:
   - translation
 
 ---
-原文：[The Importance of Writing Well](http://particletree.com/notebook/writing-resources/) By Chris Campbell
+原文：[The Importance of Writing Well](http://particletree.com/notebook/writing-resources/) by Chris Campbell
 
 翻译：Vayn a.k.a. VT &lt;vayn at(not spam) vayn dot de&gt;
 

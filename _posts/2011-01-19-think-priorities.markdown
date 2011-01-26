@@ -47,7 +47,7 @@ I'll spare you the nuts and bolts of the numerous and surprising ways that the r
 
 Priority. Man, that's a tough word. Because, depending on who you talk to, most people say "prioritizing" is either a giant problem, an underused skill, or a "Get out of Jail Free" card.
 
-优先事项。伙计，那个真是个棘手词汇。因为基于你对话的对象不同，大部分人所说的“按次序优先考虑”要么是什么大问题，要么是未被利用好的技巧，也有可能是一张“免惩罚出狱”卡。
+优先事项。伙计，那可真是个棘手词汇。因为基于你对话的对象不同，大部分人所说的“按次序优先考虑”要么是什么大问题，要么是未被利用好的技巧，也有可能是一张“免惩罚出狱”卡。
 
 Me? I think priorities are simple to understand precisely because their influence is so staggeringly clear and unavoidable to behold, then act upon. Ready for this one?
 

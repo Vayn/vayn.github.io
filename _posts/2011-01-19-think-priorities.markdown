@@ -121,8 +121,7 @@ Because, once you see what's really there -- once you know about an idea or a th
 
 Because, if you aren't rejecting or dumping things every single day, you don't know your priority. You're making things up. If you think you have 35 priorities, then yes: you also think you have 35 arms. Is it any wonder you're feeling awkward and unsure?
 
-因为，如果你每天不去拒绝或倾倒那些事，你就不会明白你的优先事项是什么。你是在无
-中生有。假如你认为你有 35 个优先事项，那么你肯定认为你有 35 个胳膊。这会不会让
+因为，如果你每天不去拒绝或倾倒那些事，你就不会明白你的优先事项是什么。你是在无中生有。假如你认为你有 35 个优先事项，那么你肯定也认为你有 35 个胳膊。这会不会让
 你觉得笨拙和没自信？
 
 [![tweet](http://i.min.us/ibSJro.jpg)](http://twitter.com/hotdogsladies/statuses/1492464753)      

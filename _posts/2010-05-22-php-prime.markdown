@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '{PHP} 计算质数'
+title: '{PHP} Prime'
 author: Vayn
 date: 2010-05-22T13:56:00+0000
 categories:
@@ -10,19 +10,61 @@ categories:
 
 ---
 
-质数只能被1和它自己整除，最小的质数是2。
+基础版：
 
-一个最基本的求1万以内质数和的方法：
+{% highlight php %}
+<?php
 
-<script src="http://gist.github.com/409824.js?file=prime_number.php"></script>
+$sum = 2;
 
-求1万以内质数和加强版：
+for ($i = 3; $i < 10000; $i+=2) {
+  $flag = True;
 
-<script src="http://gist.github.com/409917.js"></script>
+  for ($j = 2; $j <= sqrt($i); $j++) {
+     if ($i % $j == 0) {
+       $flag = False;
+       break;
+     }
+  }
 
-从[神仙居](http://syre.blogbus.com/)找到的《[筛法找质数之PHP版](http://syre.blogbus.com/logs/5731300.html)》
+   if ($flag) {
+     $sum += $i;
+     echo $i . "\n";
+   }
+}
 
-<script src="http://gist.github.com/409891.js?file=sieve_of_eratosthenes.php"></script>
+echo $sum . "\n";
+
+?>
+{% endhighlight %}
+
+从[神仙居](http://syre.blogbus.com/)看到的《[筛法找质数之PHP版](http://syre.blogbus.com/logs/5731300.html)》
+
+{% highlight php %}
+<?php
+
+define('MAX_NUM', 1000000);
+$all = array_fill(0, MAX_NUM, 0);
+$i = 2;
+
+if ($all[$i] == 0) {
+    echo $i . "\n"; //测试性能时去掉这行。输出会占据大部分时间。
+    for ($j = $i; $j < MAX_NUM; $j+=$i) {
+        $all[$j] = 1;
+    }
+}
+
+for ($i = 3; $i < MAX_NUM; $i+=2) {
+    if ($all[$i] == 0) {
+        echo $i . "\n"; //测试性能时去掉这行。输出会占据大部分时间。
+        for ($j = $i; $j < MAX_NUM; $j+=$i) {
+            $all[$j] = 1;
+        }
+    }
+}
+
+?>
+{% endhighlight %}
 
 ---
 

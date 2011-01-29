@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '{Ubuntu} 在 ubuntu 10.04 使用左手指针'
+title: '{Ubuntu} GTK Left-handed Cursor'
 author: Vayn
 date: 2010-05-01T22:25:00+0000
 categories:

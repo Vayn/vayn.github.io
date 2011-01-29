@@ -10,11 +10,9 @@ title: About
 
 熟练计算机地勤维护人员。中级 HTML &amp; CSS 机师，初级 PHP 机师，会操作 Linux 型机体，VIM （被）玩弄者……
 
-周一至周五晨跑，周六打篮球，周日踩滑板，节假日脚踏车自助游。
+偶尔晨跑踩滑板，节假日蹬驴自助游。身体状况看起来不错。
 
-身体状况看起来不错。
-
-管理学学士，合法会计从业资格，大学英语四级（至少阅读英文文档没什么问题:D），[VaynWords](http://vasa.sinaapp.com) 创造者。
+本科学历。[VaynWords](http://vasa.sinaapp.com) 创造者。
 
 喜欢《Cowboy Bebop》，Britpop，细腿软妹~
 

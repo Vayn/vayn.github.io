@@ -43,7 +43,7 @@ I'll spare you the nuts and bolts of the numerous and surprising ways that the r
 
 “优先考虑！玄关！”我听到喃喃自语，那声音恰好大到可以被另一排听到。
 
-<hr />
+---
 
 Priority. Man, that's a tough word. Because, depending on who you talk to, most people say "prioritizing" is either a giant problem, an underused skill, or a "Get out of Jail Free" card.
 
@@ -54,9 +54,9 @@ Me? I think priorities are simple to understand precisely because their influenc
 我？我认为优先事项可以很容易的精确理解，因为它们的影响力太明显且无法忽视，然后
 按其行事。准备好了吗？
 
-<strong>A priority is observed, not manufactured or assigned. Otherwise, it's necessarily <em>not</em> a priority.</strong>     
+<p><strong>A priority is observed, not manufactured or assigned. Otherwise, it's necessarily <em>not</em> a priority.</strong></p>
 
-<strong>所谓优先事项，是被察觉到的，不是被制造出来的或是被分派的。否则，它必然就<em>不是</em>一个优先事项。</strong>
+<p><strong>所谓优先事项，是被察觉到的，不是被制造出来的或是被分派的。否则，它必然就<em>不是</em>一个优先事项。</strong></p>
 
 Got that? You can't "prioritize" a list of 20 tasks any more than you can "uniqueify" 20 objects by "uniqueness," or "pregnantitze" 20 women by "pregnantness." Each of those words means something.
 
@@ -71,7 +71,7 @@ Why all the fussiness, Mr. Fussy?
 
 为什么大惊小怪，神经先生？
 
-<hr />
+---
 
 When most people say, "prioritize," I think they really mean to say, "<a href="http://www.google.com/search?client=safari&amp;rls=en-us&amp;q=forced+ranking&amp;ie=UTF-8&amp;oe=UTF-8">force-rank</a>" -- to assign <em>n</em> items one and only one position between "1" and "<em>n</em>." Right? So, yes, there's one "#1" and one "#7," et cetera. But that's not "priority," and that's why you probably have at least one task on your version of a to-do list that has been "<span style="color:red; font-weight:bold;background-color:yellow;font-size:120%;border: 1px solid #ccc;padding: 0 5px;">HIGH PRIORITY!!!</span>" for more than a month.
 

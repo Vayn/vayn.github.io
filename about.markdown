@@ -12,7 +12,7 @@ title: About
 
 偶尔晨跑踩滑板，节假日蹬驴自助游。身体状况看起来不错。
 
-本科学历。[VaynWords](http://vasa.sinaapp.com) 创造者。
+西安人。本科学历。[VaynWords](http://vasa.sinaapp.com) 创造者。
 
 喜欢《Cowboy Bebop》，Britpop，细腿软妹~
 

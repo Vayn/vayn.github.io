@@ -42,27 +42,18 @@ echo $sum . "\n";
 
 {% highlight php %}
 <?php
-
 define('MAX_NUM', 1000000);
 $all = array_fill(0, MAX_NUM, 0);
-$i = 2;
 
-if ($all[$i] == 0) {
-    echo $i . "\n"; //测试性能时去掉这行。输出会占据大部分时间。
-    for ($j = $i; $j < MAX_NUM; $j+=$i) {
-        $all[$j] = 1;
-    }
-}
-
-for ($i = 3; $i < MAX_NUM; $i+=2) {
+echo "2\n";
+for ($i = 3; $i < MAX_NUM; $i+=2) {    
     if ($all[$i] == 0) {
-        echo $i . "\n"; //测试性能时去掉这行。输出会占据大部分时间。
+        echo $i."\n";  //测试性能时去掉这行。输出会占据大部分时间。
         for ($j = $i; $j < MAX_NUM; $j+=$i) {
             $all[$j] = 1;
         }
     }
 }
-
 ?>
 {% endhighlight %}
 

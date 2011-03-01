@@ -10,7 +10,7 @@ categories:
 
 我想很多程序员之所以与程序结下不解之缘，最大的原因就是小时候被电子游戏里神奇的声光效果勾起了探索的好奇心，至少我是这样。制做游戏是我一直以来的一个愿望，感谢 Python 让我有了梦想成真的机会。
 
-大名鼎鼎的 [Tetris（俄罗斯方块）](http://en.wikipedia.org/wiki/Tetris)应该很少有人没玩过吧，经典的七个方块造型和背景音乐可以说无人不晓。而且这个游戏本身设计并不算非常复杂，做为编程练习也非常合适。我花了很长时间学习了 [Tetronomino](http://inventwithpython.com/tetromino.py) （一个 Tetris 游戏的 Python 版）的代码，然后把这个游戏重构了一遍。我把重构之后的游戏取名为 [Pytris][1]，即 Python + Tetris。
+大名鼎鼎的 [Tetris（俄罗斯方块）](http://en.wikipedia.org/wiki/Tetris)应该很少有人没玩过吧，经典的七个方块造型和背景音乐可以说无人不晓。而且这个游戏本身设计并不算非常复杂，做为编程练习也非常合适。我花了很长时间学习了 [Tetromino](http://inventwithpython.com/tetromino.py) （一个 Tetris 游戏的 Python 版）的代码，然后把这个游戏重构了一遍。我把重构之后的游戏取名为 [Pytris][1]，即 Python + Tetris。
 
 ![Pytris](https://github.com/Vayn/Pytris/raw/master/asset/image/screenshot01.png)
 
@@ -82,7 +82,7 @@ def convertToPixelCoords(self, x, y):
 
 Pytris 的源码和安装方法等等我都放到了 Github 上 —— [https://github.com/Vayn/Pytris][1]，欢迎各位 clone。
 
-最后，感谢 Tetronomino 的作者 [Al Sweigart](http://inventwithpython.com/blog)。
+最后，感谢 Tetromino 的作者 [Al Sweigart](http://inventwithpython.com/blog)。
 
 [1]:https://github.com/Vayn/Pytris
 

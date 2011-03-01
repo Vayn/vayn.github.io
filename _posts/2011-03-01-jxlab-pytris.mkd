@@ -70,10 +70,10 @@ class Play(State):
 另外， 游戏中的方块是以“块”为单位绘制和移动的而不是像素，所以需要把背板（也就是游戏中方块能在里面移动的区域）按块重新划分。并且在绘制方块的时候，把方块所处的格子重新转换回像素坐标，这样才能正确绘制。
 
 {% highlight python %}
-    def convertToPixelCoords(self, x, y):
-        # Convert the given x,y coordinates of the board to x,y coordinates of
-        # the location on the screen.
-        return (XMARGIN + (x * BLOCKSIZE)), ((BOARDTOP + (y * BLOCKSIZE)))
+def convertToPixelCoords(self, x, y):
+    # Convert the given x,y coordinates of the board to x,y coordinates of
+    # the location on the screen.
+    return (XMARGIN + (x * BLOCKSIZE)), ((BOARDTOP + (y * BLOCKSIZE)))
 {% endhighlight %}
 
 `convertToPixelCoords` 方法就是用来做转换的。计算方法很简单，将方块在背板的上坐标 (x, y) 分别乘以单位方块的大小 BLOCKSIZE，再分别加上背板与窗口左侧与上方的距离即可求出方块的像素坐标。

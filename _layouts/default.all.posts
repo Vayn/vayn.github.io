@@ -40,5 +40,6 @@
     <div id="footer" class="container">
         <p>Copyright &copy; 2009&ndash;{{ site.time | date: "%Y" }} <a href="mailto:v&#97;yn&#64;v&#97;yn.d&#101;">Vayn a.k.a. VT</a></p>
     </div>
+<script type="text/javascript" src="http://js.tongji.linezing.com/2290591/tongji.js"></script><noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2290591/tongji.gif"/></a></noscript>
 </body>
 </html>

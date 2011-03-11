@@ -66,10 +66,9 @@ class Entry(models.Model):
         for i in self.taglist:
             p, created = Tag.objects.get_or_create(name=i)
             self.tags.add(p)
-        super(Entry, self).save()
 {% endhighlight %}
 
-在 Entry 的属性里多了个 taglist，它用来储存文章的 tag。之后使用 save 的时候，会先调用 Entry 父类的 save 方法将 title, pub_date, content 写入 entry 表，然后取出 taglist 中的每一个 tag，调用 Tag.objects.get_or_create 方法获得 Tag 对象，再用 [ManyToMany](http://docs.djangoproject.com/en/dev/ref/models/fields/#django.db.models.ManyToManyField) 的 add 方法添加 Tag 对象，最后二次调用 save 方法把数据真正存入数据库。
+在 Entry 的属性里多了个 taglist，它用来储存文章的 tag。之后使用 save 的时候，会先调用 Entry 父类的 save 方法将 title, pub_date, content 写入 entry 表，然后取出 taglist 中的每一个 tag，调用 Tag.objects.get_or_create 方法获得 Tag 对象，再用 [ManyToMany](http://docs.djangoproject.com/en/dev/ref/models/fields/#django.db.models.ManyToManyField) 的 add 方法添加 Tag 对象<del>，最后二次调用 save 方法把数据真正存入数据库</del>。
 
 Manager 的 [get_or_create](http://docs.djangoproject.com/en/dev/ref/models/querysets/#get-or-create) 方法接受给定参数作为查询条件，如果找到结果就返回找到的对象，如果没找到就先创建对象再返回它，这样一来我们就不用担心会出现重复添加 tag 的问题了。
 
@@ -97,7 +96,6 @@ class Entry(models.Model):
         for i in self.taglist:
             p, created = Tag.objects.get_or_create(name=i)
             self.tags.add(p)
-        super(Entry, self).save()
         self.taglist = []
 {% endhighlight %}
 

@@ -107,7 +107,7 @@ catch(Exception $e) {
 
 Object oriented PHP 是一种看起来很漂亮的东西，但是涉及内存使用的时候有几个明确的问题需要牢记。这些问题会在处理递归输出的时候易于引起一些状况出现（比如：输出到 Excel），如果创造对象的时候有内存泄漏或对象没有被恰当地销毁。所有这些会导致意料之外的资源使用和致命错误，加剧恶化最终用户的使用。
 
-使用有内存管理辅助的调试器可以显示脚本可用的最大内存容量。`memory_get_peak_usage()` 在数据起始的地方内置了一个简单的调用。有关内存使用方面的系统设置（通过 ` ini_get()`）也会被显示出来，以便查看还有多少回旋余地。如果综述还不够，你可以利用特定时间点的内存调用穿过你的资源使用（ you can drill down into your resource usage with a point in time memory call.）。
+使用有内存管理辅助的调试器可以显示脚本可用的最大内存容量。`memory_get_peak_usage()` 在数据起始的地方内置了一个简单的调用。有关内存使用方面的系统设置（通过 ` ini_get()`）也会被显示出来，以便查看还有多少回旋余地。如果综述还不够，你可以利用特定时间点的内存调用研究你的资源使用（ you can drill down into your resource usage with a point in time memory call.）。
 
 {% highlight php %}
 Console::logMemory();

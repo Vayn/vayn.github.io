@@ -374,8 +374,14 @@ div.colborder {
 /* - Code
 -------------------------------------------------------*/
 code {
-    font-family: Consolas, Monaco, monospace;
+    background: #eee;
+    color: #333;
+    font-family: Menlo, Monaco, Consolas, monospace;
     font-size: 14px;
+    padding: 2px;
+}
+
+pre code {
     background: #202020;
     color: #d0d0d0;
 }

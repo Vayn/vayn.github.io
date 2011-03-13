@@ -29,3 +29,9 @@ __LINUX__
 
 `mplayer -vo caca filename`
 
+编译 VIM：
+
+`./configure --with-features=huge --enable-gnome-check --enable-xim --enable-pythoninterp=yes --enable-gui --enable-cscope --enable-fontset --enable-perlinterp --enable-rubyinterp --enable-multibyte --with-x --with-python-config-dir=/usr/lib/python2.6/config --prefix=/usr/local/share`
+
+`make VIMRCLOC=/etc/ VIMRUNTIMEDIR=/usr/local/vim/vim73 MAKE="make -e"`
+

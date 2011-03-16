@@ -2,7 +2,7 @@
 layout: post
 title: '{JxLab} Vim Documentation Chinese Version eBook'
 author: Vayn
-date: 
+date: 2011-03-15
 categories:
   -  vim
   -  DIY

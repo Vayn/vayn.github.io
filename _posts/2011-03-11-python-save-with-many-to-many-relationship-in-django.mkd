@@ -114,6 +114,4 @@ Entry.objects.get_or_create(title=title, defaults=data)
 
 以上代码均来自 Antidote（[https://github.com/Vayn/Antidote](https://github.com/Vayn/Antidote)），这是一个为方便用 jekyll 写 blog 的人管理文章的应用，欢迎 clone。
 
-![Antidote Red](/images/antidote_red.jpg)
-
 EOF

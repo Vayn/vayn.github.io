@@ -341,7 +341,7 @@ ul {
 img.callout {
     float: left;
     margin: 0 5px 0 0;
-    border: 2px solid #000;
+    border: 2px solid #f7f7f7;
 }
 
 .clearfix:after,.container:after {

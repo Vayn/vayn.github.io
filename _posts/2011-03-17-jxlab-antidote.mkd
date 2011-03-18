@@ -36,7 +36,7 @@ Antidote 能做什么
 
 [![antidote](/images/archive/2011/antidote/antidote_b_small.jpg)](/images/archive/2011/antidote/antidote_b.png)
 
-上面的都内容都抄自 Readme （汗），具体的用法什么的和源码都在 Github 上，欢迎 clone：
+更具体的用法和源码在 Github 上，欢迎 clone：
 
 [https://github.com/Vayn/Antidote][1]
 

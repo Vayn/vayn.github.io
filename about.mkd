@@ -6,15 +6,15 @@ title: About
 ## About Me
 
 <img src="http://www.gravatar.com/avatar/0619de25d967ff4224263c94da32548c.png" class="callout" />
-年轻不知深浅，浪费几多光阴。
+Vayn a.k.a. VT
 
-熟练计算机地勤维护人员。中级 HTML &amp; CSS 机师，初级 PHP 机师，会操作 Linux 型机体，VIM （被）玩弄者……
+熟练计算机地勤维护人员。中级 HTML &amp; CSS 机师，初级 PHP 机师，初级 Python 机师，会操作 Linux 型机体，Vim 爱好者……偶尔晨跑踩滑板，身体状况看起来不错。
 
-偶尔晨跑踩滑板，节假日蹬驴自助游。身体状况看起来不错。
-
-西安人。本科学历。[VaynWords](http://vasa.sinaapp.com) 创造者。
+西安人。
 
 喜欢《Cowboy Bebop》，Britpop，细腿软妹~
+
+Github 仓库：[https://github.com/Vayn](https://github.com/Vayn)
 
 Email: vayn at vayn.de
 
@@ -22,7 +22,7 @@ Gtalk: dreamx007 at gmail dot com
 
 keyID 0x551FBCF8 at keyserver.ubuntu.com, created at 2011-01-06, expires at 2016-01-05
 
------BEGIN PGP PUBLIC KEY BLOCK-----    
+<pre><code>-----BEGIN PGP PUBLIC KEY BLOCK-----    
 Version: GnuPG v1.4.10 (GNU/Linux)
 
 mQENBE0kwMMBCADH176U44vL0fKP6/OfDEQmzBykSHqttQqQt+HQ/LW+rUPqP5Mz    
@@ -51,11 +51,11 @@ rPbT7q2qDz/UI0VJnBPu7qktoIEHoQ4Sjx1/8Mb9eK8e8mo1H4t1DMhRnVI7PnF9
 jWRxgyqovntmzL3B6sr974easqunvmnVXht6zKm6kvEKz33dmFHHsL7S59/wcQrB    
 bw4UemdodCB3uuc4MbY8nVW5ugY4b9JL1fL+ZD7mfGRoOj0=    
 =Sxgv   
------END PGP PUBLIC KEY BLOCK-----
+-----END PGP PUBLIC KEY BLOCK-----</code></pre>
 
 -------
 
-The following feeds are subcribed by [Ben Ubois](http://benubois.com), and this site is also using his [source](http://github.com/benubois/benubois.com). Thank you.
+The following feeds are subcribed by [Ben Ubois](http://benubois.com), and this site is also using his [source](http://github.com/benubois/benubois.com). Thanks.
 
 ### Feeds
 

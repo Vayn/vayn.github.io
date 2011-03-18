@@ -55,3 +55,7 @@ This function is significantly faster for checking illegal characters than the e
 
 [get_cfg_var](http://php.net/manual/en/function.get-cfg-var.php) - Gets the value of a PHP configuration option. _`get_cfg_var`_ returns the value from php.ini directly, while the _`ini_get`_ returns the runtime config value.
 
+[pathinfo](http://php.net/manual/en/function.pathinfo.php) - returns an associative array containing information about _path_.
+
+[parse_str](http://cn2.php.net/manual/en/function.parse-str.php) - Parses _str_ as if it were the query string passed via a URL and sets variables in the current scope. 
+

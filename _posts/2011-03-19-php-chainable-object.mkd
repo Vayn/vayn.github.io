@@ -1,0 +1,103 @@
+---
+layout: post
+title: '{PHP} Chainable Object'
+author: Vayn
+date: 2011-03-19
+categories:
+  -  php
+  -  sharing
+---
+
+用多了 Python 就会想要是 PHP 也支持链式调用就好了，但也只是想想而已。没想到今天在看 <abbr title="Code Igniter">CI</abbr> 的文档的时候发现 CI 的 Email 类支持链式调用。原来 PHP 里也是支持链式的调用的，之前那种无所谓的态度真是要不得。
+
+PHP 的链式调用实现起来其实很简单，只要每个方法最后返回的是对象本身就行了：
+
+{% highlight php %}
+class Foo {
+    public function bar() {
+        return $this;
+    }
+}
+{% endhighlight %}
+
+虽然比不上 Python，但这是很好的发展趋势。
+
+我在查找资料的过程中发现 shesek 写了一个[很棒的链式调用的例子](http://www.shesek.info/php/my-implementation-of-php-chainable)，能够在不修改原来类的基础上实现对其的链式调用。
+
+{% highlight php %}
+<?php
+class Chainable {
+    private $obj;
+    private $result;
+
+    public function __construct($obj) {
+        $this->obj = $obj;
+    }
+
+    public function __call($method, $args) {
+        if (substr($method, 0, 1) == '_') {
+            array_unshift($args, $this->result);
+            $method = substr($method, 1);
+        }
+        $this->result = call_user_func_array(array($this->obj, $method), $args);
+        return $this;
+    }
+
+    public function __set($key, $value) {
+        $this->obj->$key = $value;
+        return $this;
+    }
+
+    public function __get($key) {
+        return $this->obj->$key;
+    }
+
+    public function result() {
+        return $this->result;
+    }
+
+    # new Chainable($obj)->foo() isn't possible.
+    # Chainable::get($obj)->foo() is possible.
+    public static function get($obj) {
+        $chainable = new Chainable($obj);
+        return $chainable;
+    }
+}
+
+class Foo {
+    public function bar($str) {
+        return 'bar::' . $str;
+    }
+
+    public function baz($passed, $str) {
+        return 'baz::' . $str . ' -- passed::' . $passed;
+    }
+
+    # When we use "Chainable::get($obj)->foo()" to invoke method,
+    # chain() is useless.
+    public function chain() {
+        return Chainable::get($this);
+    }
+}
+
+$foo = new Foo;
+
+echo Chainable::get($foo)->bar('Vayn')->_baz('test')->result();
+echo "\n";
+
+echo $foo->chain()->bar('Vayn')->_baz('test')->result();
+echo "\n";
+
+$foo->chain()->tnt = 'boom';
+echo $foo->tnt;
+echo "\n";
+
+# 蛋疼一次 ><
+echo Chainable::get($foo)->__set('power', 'nuclear')->bar($foo->power)->_baz($foo->tnt)->result();
+
+?>
+{% endhighlight %}
+
+代码简洁又清晰，基本思想就是利用 Chainable 类来维护传入对象并实现对传入对象的链式调用。
+
+EOF

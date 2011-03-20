@@ -220,13 +220,13 @@ ul {
 
 #nav {
     float: right;
-    width: 340px;
+    width: 370px;
     margin: 0;
 }
 
 #nav li {
     display: block;
-    padding-left: 20px;
+    padding-left: 10px;
     float: right;
 }
 

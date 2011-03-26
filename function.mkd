@@ -57,5 +57,9 @@ This function is significantly faster for checking illegal characters than the e
 
 [pathinfo](http://php.net/manual/en/function.pathinfo.php) - returns an associative array containing information about _path_.
 
-[parse_str](http://cn2.php.net/manual/en/function.parse-str.php) - Parses _str_ as if it were the query string passed via a URL and sets variables in the current scope. 
+[parse_str](http://php.net/manual/en/function.parse-str.php) - Parses _str_ as if it were the query string passed via a URL and sets variables in the current scope. 
+
+[error_log](http://php.net/manual/en/function.error-log.php) - Sends an error message to the web server's error log or to a file. 
+
+[session_save_handler](http://php.net/session_set_save_handler) - `session_set_save_handler()` sets the user-level session storage functions which are used for storing and retrieving data associated with a session. This is most useful when a storage method other than those supplied by PHP sessions is preferred. i.e. Storing the session data in a local database. 
 

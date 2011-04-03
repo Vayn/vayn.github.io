@@ -14,7 +14,7 @@ categories:
 
 [Sudo Robot] 能够为你提供最新的天气情况，还可以推送包括 Pinboard, Solidot 等站点的最新新闻。
 
-经过初步整理，我现在把 Sudo Robot 的源码开放出来，这样大家就可以搭建自己的机器人了。你打开 Sudo Robot 的网站 [http://bot.vayn.de/][1]，可以看到左上角有个 "__Fork me on Github__" 的标签，点击就可进入 Sudo Robot 在 Github 上的仓库。
+经过初步整理，我现在把 Sudo Robot 的源码开放出来，这样大家就可以搭建自己的机器人了。你打开 Sudo Robot 的网站 [http://bot.vayn.de/][1]，可以看到左上角有个 __Fork me on Github__ 的标签，点击就可进入 Sudo Robot 在 Github 上的仓库。
 
 Sudo Robot 是我接触 App Engine 的第一支程序，因此可能会有很多问题和需要改进的地方，欢迎在文章下方留言，或者 follow 我的 Twitter 账号 [@vayn][3]。
 

@@ -4,6 +4,7 @@ title: '{Think} Rework Note'
 author: Vayn
 date: 2010-10-24
 categories:
+  - note
   - think
   - important
 ---

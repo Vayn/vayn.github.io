@@ -44,7 +44,7 @@ categories:
 
 接下来，因为之前手太快，又得再下一次 Python 3.2 的源码……解压，编译：
 
-`./configure --enable-shared --prefix=/usr/local`
+`./configure --enable-shared --with-wide-unicode --prefix=/usr/local`
 
 `make`
 
@@ -85,5 +85,7 @@ Hmm，两个加密组件编译失败……搜索过程略过，最后在 [Python
 至于最后的最后，成功地跑 Greenlet 程序已经没什么好说的了……
 
 我把整个过程都回顾一遍，一是自娱自乐，二是发现这方面的关于安装编译 Python 3的中文资料不多，希望能帮到大家的忙。
+
+Update: 经[依云](http://lilydjwg.is-programmer.com)提醒，给 Python 的编译参数加上了 --with-wide-unicode，如果想增加（或减少）特性，可使用 `./configure --help`或 Arch 的 PKGBUILD 来查阅特性。
 
 EOF

@@ -1,9 +1,4 @@
 permalink: /:year/:month/:day/:title.html
-<<<<<<< HEAD
 auto:      true
 pygments:  true
 markdown:  rdiscount
-=======
-auto: true
-pygments: true
->>>>>>> 6d2c0cd1696d3cd0785a69e76916ccd457f2067d

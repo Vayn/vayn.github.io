@@ -24,14 +24,16 @@ categories:
 
 我假设咱们都知道函数（function）就是接受输入数据（input value）然后返回输出数据（output value）。比方说，一个平方函数：
 
-<pre><code><strong>f</strong>>(<em>x<em>) = <em>x<sup>2</sup></em></code></pre>
+<pre><code><strong>f</strong>(<em>x<em>) = <em>x<sup>2</sup></em></code></pre>
 
 写成 JavaScript：
 
 {% highlight javascript %}
+<pre>
 var square = function(x) {
-  return x &lowast; x;
+  return x * x;
 };
+</pre>
 {% endhighlight %}
 
 不动点（fixed point）是指函数的某种输入和函数本身相等，也就 __f__(_x_) 等于 _x_ 。因此，f(x) = x<sup>2</sup> 的不动点是 0 和 1。
@@ -43,17 +45,21 @@ var square = function(x) {
 __Y__ 一般用来在某个语言中实现匿名函数的递归，无论这种语言是否支持匿名函数递归。比方说，我想有计算一个数的阶乘的函数：
 
 {% highlight javascript %}
+<pre>
 var factorial = function(x) {
   return x == 0 ? 1 : x * factorial(x-1);
 };
+</pre>
 {% endhighlight %}
 
 在继续之前先声明一下：JavaScript 支持匿名函数递归。所以，这个函数的正确写法是：
 
 {% highlight javascript %}
+<pre>
 var factorial = function(x) {
   return x == 0 ? 1 : x * arguments.callee(x-1);
 };
+</pre>
 {% endhighlight %}
 
 `arguments.callee` 让我们可以从函数内部得到其自身的引用，这篇文章的内容就是假设语言不支持此功能的情况下要怎么办。
@@ -69,11 +75,13 @@ bar(5); // -> does not work
 我的 factorial 函数罢工了，因为 `factorial` 不再是它所期待的那样。我们将要做的是，创建一个函数，让它充当阶 factorial 函数的工厂（factory）：
 
 {% highlight javascript %}
+<pre>
 var f = function(q) {
   return function(x) {
     return x == 0 ? 1 ? x * q(x-1);
   }
 };
+</pre>
 {% endhighlight %}
 
 f 函数将返回一个 factorial 函数。它递归地调用一个内部函数 q（定义在 f 内，不是全局的）。我们要把这个函数传递给 f 函数，让递归正常工作。那么，什么样的函数才是我们需要的？q 需要成为 factorial 函数并且作为内部函数正常执行。但是回到我们开始的地方：我们没法写出一个安全的 factorial 函数，因为我们不能使用匿名递归。
@@ -83,16 +91,19 @@ f 函数将返回一个 factorial 函数。它递归地调用一个内部函数 
 首先，我们创造一个指向 `factorial` 的递归函数，把它自己作为一个参数传递进去：
 
 {% highlight javascript %}
+<pre>
 var factorial = function(h, x) {
   return x == 0 ? 1 : x * h(h, x-1);
 }
 
 factorial(factorial, 5);  // -> 120
+</pre>
 {% endhighlight %}
 
 现在我们给 `factorial` 传递了一个函数，告诉它如何在不引用任何全局变量的情况下递归。不过这个接口不是真的令人满意——我想要能这样调用函数 `functionName(value)`。撒，让我们创造一个返回另一个函数的函数吧（这叫 _柯里化(currying)_ 我们的 `factorial` 函数）：
 
 {% highlight javascript %}
+<pre>
 var factorial = function(h) {
   return function(x) {
     return x == 0 ? 1 : x * h(h)(x-1);
@@ -100,11 +111,13 @@ var factorial = function(h) {
 };
 
 factorial(factorial)(5);  // -> 120
+</pre>
 {% endhighlight %}
 
 这段代码不错，但有很多冗余和重复，并且函数定义里是 `h(h)(x)`，而不是上面那样的 `q(x)`。因此，我们创建另一个嵌套函数来生成 h(h) 的单独引用：
 
 {% highlight javascript %}
+<pre>
 var factorial = function(h) {
   return function(x) {
     var f = function(q, x) {
@@ -115,11 +128,13 @@ var factorial = function(h) {
 };
 
 factorial(factorial)(5);  // -> 120
+</pre>
 {% endhighlight %}
 
 这段代码看上去很像之前 f 函数的形式。我们只需柯里化（curry）最里面的函数，就能完成转换：
 
 {% highlight javascript %}
+<pre>
 var factorial = function(h) {
   return function(x) {
     var f = function(q) {
@@ -132,11 +147,13 @@ var factorial = function(h) {
 };
 
 factorial(factorial)(5);  // -> 120
+</pre>
 {% endhighlight %}
 
 现在内部函数 f 不再包含任何外部变量的引用，所以把 f 单独抽出后它仍将正常执行：
 
 {% highlight javascript %}
+<pre>
 var f = function(q) {
   return function(x) {
     return x == 0 ? 1 : x * q(x-1);
@@ -150,6 +167,7 @@ var factorial = function(h) {
 };
 
 factorial(factorial)(5);  // -> 120
+</pre>
 {% endhighlight %}
 
 于是我们就得到了原始的 f，也就是我们想要的不动点。这里，不动点是由 `factorial(factorial)` 得到的 factorial 函数，因此我们可以写一个 Y() 函数来得它：
@@ -182,6 +200,7 @@ var Y = function(f) {
 `Y()` 将返回任何高阶函数的不动点，也就是我们想要的：
 
 {% highlight javascript %}
+<pre>
 var factorial = Y(function(recurse) {
   return function(x) {
     return x == 0 ? 1 : x * recurse(x-1);
@@ -189,11 +208,13 @@ var factorial = Y(function(recurse) {
 });
 
 factorial(5); // -> 120
+</pre>
 {% endhighlight %}
 
 而且和变戏法一样——我们实现了匿名函数递归，不依赖全局变量或宿主语言的支持。如果你想在 Ruby 中这么做（我不清楚 Ruby 里有没有类似 `arguments.callee` 的方法），它会是这样的：
 
 {% highlight ruby %}
+<pre>
 def y(&f)
   lambda { |g| g[g] } [
     lambda do |h|
@@ -207,6 +228,7 @@ factorial = y do |recurse|
     x.zero? ? 1 : x * recurse[x-1]
   end
 end
+</pre>
 {% endhighlight %}
 
 有关于 __Y__ 的最让人沮丧是，当你推导出它后，完全没法儿通过只看它一眼就说出它到底是想干吗。如果你读到了这里，恭喜你。
@@ -216,11 +238,13 @@ end
 我补充个 Python 版的 Y combinator：
 
 {% highlight python %}
+<pre>
 Y = lambda f: (lambda g: g(g))(lambda h: lambda x: f(h(h))(x))
 
 factorial = Y(lambda recurse: lambda x: 1 if 0 == x else x * recurse(x-1))
 
 factorial(5) # 120
+</pre>
 {% endhighlight %}
 
 EOF

@@ -90,7 +90,7 @@ var factorial = function(h, x) {
 factorial(factorial, 5);  // -> 120
 {% endhighlight %}
 
-现在我们给 `factorial` 传递了一个函数，告诉它如何在不引用任何全局变量的情况下递归。不过这个接口不是真的令人满意——我想要能这样调用函数 `functionName(value)`。撒，让我们创造一个返回另一个函数的函数吧（这叫 _柯里化(currying)_ 我们的 `factorial` 函数）：
+现在我们给 `factorial` 传递了一个函数，告诉它如何在不引用任何全局变量的情况下递归。不过这个接口不太令人满意——我想要能这样调用函数 `functionName(value)`。撒，让我们创造一个返回另一个函数的函数吧（这叫 _柯里化(currying)_ 我们的 `factorial` 函数）：
 
 {% highlight javascript %}
 var factorial = function(h) {

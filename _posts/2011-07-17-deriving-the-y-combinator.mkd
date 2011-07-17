@@ -28,13 +28,13 @@ categories:
 
 写成 JavaScript：
 
-{% highlight javascript %}
 <pre>
+{% highlight javascript %}
 var square = function(x) {
   return x * x;
 };
-</pre>
 {% endhighlight %}
+</pre>
 
 不动点（fixed point）是指函数的某种输入和函数本身相等，也就 __f__(_x_) 等于 _x_ 。因此，f(x) = x<sup>2</sup> 的不动点是 0 和 1。
 

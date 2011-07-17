@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '{Python} 了解 Y combinator'
+title: '{Functional} 了解 Y combinator'
 author: Vayn
 date: 2011-07-17
 categories:

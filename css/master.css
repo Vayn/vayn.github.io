@@ -187,6 +187,7 @@ ul {
 
 sup,
 sub {
+    font-size: 5px;
     height: 0;
     line-height: 1;
     vertical-align: baseline;

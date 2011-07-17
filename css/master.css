@@ -185,6 +185,22 @@ ul {
     margin: 0 0 1.5em 1em;
 }
 
+sup,
+sub {
+    height: 0;
+    line-height: 1;
+    vertical-align: baseline;
+    _vertical-align: bottom;
+    position: relative;
+}
+
+sup {
+    bottom: 1ex;
+}
+
+sub {
+    top: .5ex;
+}
 
 /* - Structure
 -------------------------------------------------------*/

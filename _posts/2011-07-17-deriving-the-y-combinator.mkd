@@ -30,7 +30,7 @@ categories:
 
 {% highlight javascript %}
 var square = function(x) {
-  return x * x;
+  return x &lowast; x;
 };
 {% endhighlight %}
 

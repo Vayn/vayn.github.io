@@ -66,7 +66,7 @@ factorial = "something";
 bar(5); // -> does not work
 {% endhighlight %}
 
-我的 factorial 函数罢工了，因为 `factorial` 不再是它所期待的那样。我们将要做的是，创建一个函数，让它充当阶 factorial 函数的工厂（factory）：
+我的 factorial 函数罢工了，因为 `factorial` 不再是它所期待的那样。我们将要做的是，创建一个函数，让它充当 factorial 函数的工厂（factory）：
 
 {% highlight javascript %}
 var f = function(q) {

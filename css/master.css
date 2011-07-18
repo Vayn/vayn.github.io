@@ -140,7 +140,7 @@ body {
 }
 
 body.postpage {
-    background-color: #F4EED9;
+    background: #F4EED9 url('/images/bg-repeat.gif') repeat 0 0;
 }
 
 a,a:visited {

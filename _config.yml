@@ -69,4 +69,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/vayn/vayn.github.com.git
+  repository: https://github.com/vayn/vayn.github.io.git
+  branch: master
+

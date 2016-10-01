@@ -68,7 +68,12 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repository: https://github.com/vayn/vayn.github.io.git
   branch: master
+- type: rsync
+  host: AWS
+  user: ubuntu
+  root: /var/www/html
+  port: 22
 

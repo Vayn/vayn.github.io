@@ -3,14 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Enterprise XCV 330</title>
+  <title>使用 Karabiner Elements 修改 macOS Sierra 键位 | Enterprise XCV 330</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Enterprise XCV 330">
-<meta property="og:url" content="http://vayn.de/index.html">
+  <meta name="description" content="macOS 来到 Sierra (10.12) 后，Karabiner 已然失效。幸好 Karabiner 的开发者们已经释出 Karabiner 的后续版本 Karabiner Elements，通过在 karabiner.json（相当于之前的 private.xml）进行设置，即可修改 Mac 系统的键盘。
+Examples键位交换Esc, CapsLock, Left Ctrl 三方交换：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用 Karabiner Elements 修改 macOS Sierra 键位">
+<meta property="og:url" content="http://vayn.de/2016/10/12/karabiner-element/index.html">
 <meta property="og:site_name" content="Enterprise XCV 330">
+<meta property="og:description" content="macOS 来到 Sierra (10.12) 后，Karabiner 已然失效。幸好 Karabiner 的开发者们已经释出 Karabiner 的后续版本 Karabiner Elements，通过在 karabiner.json（相当于之前的 private.xml）进行设置，即可修改 Mac 系统的键盘。
+Examples键位交换Esc, CapsLock, Left Ctrl 三方交换：">
+<meta property="og:updated_time" content="2016-10-12T06:44:48.012Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Enterprise XCV 330">
+<meta name="twitter:title" content="使用 Karabiner Elements 修改 macOS Sierra 键位">
+<meta name="twitter:description" content="macOS 来到 Sierra (10.12) 后，Karabiner 已然失效。幸好 Karabiner 的开发者们已经释出 Karabiner 的后续版本 Karabiner Elements，通过在 karabiner.json（相当于之前的 private.xml）进行设置，即可修改 Mac 系统的键盘。
+Examples键位交换Esc, CapsLock, Left Ctrl 三方交换：">
   
     <link rel="alternate" href="/atom.xml" title="Enterprise XCV 330" type="application/atom+xml">
   
@@ -59,9 +66,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-karabiner-element" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-karabiner-element" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/10/12/karabiner-element/" class="article-date">
   <time datetime="2016-10-12T07:50:56.546Z" itemprop="datePublished">2016-10-12</time>
@@ -78,8 +83,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/12/karabiner-element/">使用 Karabiner Elements 修改 macOS Sierra 键位</a>
+    <h1 class="article-title" itemprop="name">
+      使用 Karabiner Elements 修改 macOS Sierra 键位
     </h1>
   
 
@@ -103,61 +108,39 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-use-wizmouse-mimick-mac" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/10/12/use-wizmouse-mimick-mac/" class="article-date">
-  <time datetime="2016-10-12T07:50:56.546Z" itemprop="datePublished">2016-10-12</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/随笔/">随笔</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/12/use-wizmouse-mimick-mac/">使用 WizMouse 让 Windows 支持 macOS 鼠标行为</a>
-    </h1>
+    <a href="/2016/10/12/use-wizmouse-mimick-mac/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">使用 WizMouse 让 Windows 支持 macOS 鼠标行为</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>macOS 的鼠标操作有两个异于 Windows 的行为：</p>
-<ol>
-<li>「自然」滚动：就是滚轮向上，页面向下，反之亦然。这个动作是模仿真实环境下将纸张上下搓动。</li>
-<li>在非激活窗口使用滚动：鼠标指针焦点在哪个窗口，就能使用滚轮控制此窗口上下滚动。省去来回切换窗口焦点的麻烦。</li>
-</ol>
-<p>第1点好坏有赖于个人习惯，不过第2点确实可以节省不少时间。那么如何在 Windows 上也让鼠标采用以上行为？不用调注册表，只需要安装 <a href="http://antibody-software.com/web/software/software/wizmouse-makes-your-mouse-wheel-work-on-the-window-under-the-mouse/" target="_blank" rel="external">WizMouse</a> 即可。</p>
-<p>运行 WizMouse 后鼠标就自带非激活窗口滚动功能了，如果还需要自然滚动，在 Settings 里将 <code>Reverse Mouse Scrolling</code> 勾选上就好了。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://vayn.de/2016/10/12/use-wizmouse-mimick-mac/" data-id="ciu6maub10001wrqpg247u5mi" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Windows/">Windows</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/software/">software</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/trick/">trick</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
 
 
-
-  
+<section id="comments">
+  <!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="post-karabiner-element" data-title="使用 Karabiner Elements 修改 macOS Sierra 键位" data-url="http://vayn.de/2016/10/12/karabiner-element/"></div>
+  <!-- 多说评论框 end -->
+  <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+  <script type="text/javascript">
+  var duoshuoQuery = {short_name:'vayn'};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0] 
+       || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+  <!-- 多说公共JS代码 end -->
+</section>
 
 </section>
         

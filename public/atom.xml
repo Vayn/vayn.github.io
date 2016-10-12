@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://vayn.de/"/>
-  <updated>2016-10-12T07:23:49.633Z</updated>
+  <updated>2016-10-12T06:44:48.012Z</updated>
   <id>http://vayn.de/</id>
   
   <author>
@@ -16,10 +16,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>使用 Karabiner Elements 修改 macOS Sierra 键位</title>
+    <link href="http://vayn.de/2016/10/12/karabiner-element/"/>
+    <id>http://vayn.de/2016/10/12/karabiner-element/</id>
+    <published>2016-10-12T07:50:56.546Z</published>
+    <updated>2016-10-12T06:44:48.012Z</updated>
+    
+    <content type="html"><![CDATA[<p>macOS 来到 Sierra (10.12) 后，Karabiner 已然失效。幸好 Karabiner 的开发者们已经释出 Karabiner 的后续版本 <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank" rel="external">Karabiner Elements</a>，通过在 <code>karabiner.json</code>（相当于之前的 <code>private.xml</code>）进行设置，即可修改 Mac 系统的键盘。</p>
+<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><h3 id="键位交换"><a href="#键位交换" class="headerlink" title="键位交换"></a>键位交换</h3><p>Esc, CapsLock, Left Ctrl 三方交换：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">    <span class="attr">"profiles"</span>: [</div><div class="line">        &#123;</div><div class="line">            <span class="attr">"name"</span>: <span class="string">"Default profile"</span>,</div><div class="line">            <span class="attr">"selected"</span>: <span class="literal">true</span>,</div><div class="line">            <span class="attr">"simple_modifications"</span>: &#123;</div><div class="line">                <span class="attr">"caps_lock"</span>: <span class="string">"left_control"</span>,</div><div class="line">                <span class="attr">"left_control"</span>: <span class="string">"escape"</span>,</div><div class="line">                <span class="attr">"escape"</span>: <span class="string">"caps_lock"</span></div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    ]</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://github.com/tekezo/Karabiner-Elements/tree/master/examples" target="_blank" rel="external">Examples</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;macOS 来到 Sierra (10.12) 后，Karabiner 已然失效。幸好 Karabiner 的开发者们已经释出 Karabiner 的后续版本 &lt;a href=&quot;https://github.com/tekezo/Karabiner-Elements&quot; ta
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://vayn.de/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="macOS" scheme="http://vayn.de/tags/macOS/"/>
+    
+      <category term="trick" scheme="http://vayn.de/tags/trick/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用 WizMouse 让 Windows 支持 macOS 鼠标行为</title>
-    <link href="http://vayn.de/2016/10/12/2016/10/use-wizmouse-mimick-mac/"/>
-    <id>http://vayn.de/2016/10/12/2016/10/use-wizmouse-mimick-mac/</id>
-    <published>2016-10-12T07:23:49.633Z</published>
+    <link href="http://vayn.de/2016/10/12/use-wizmouse-mimick-mac/"/>
+    <id>http://vayn.de/2016/10/12/use-wizmouse-mimick-mac/</id>
+    <published>2016-10-12T07:50:56.546Z</published>
     <updated>2016-10-12T07:23:49.633Z</updated>
     
     <content type="html"><![CDATA[<p>macOS 的鼠标操作有两个异于 Windows 的行为：</p>
@@ -48,34 +76,6 @@
       <category term="Windows" scheme="http://vayn.de/tags/Windows/"/>
     
       <category term="software" scheme="http://vayn.de/tags/software/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用 Karabiner Elements 修改 macOS Sierra 键位</title>
-    <link href="http://vayn.de/2016/10/12/2016/10/karabiner-element/"/>
-    <id>http://vayn.de/2016/10/12/2016/10/karabiner-element/</id>
-    <published>2016-10-12T06:44:48.012Z</published>
-    <updated>2016-10-12T06:44:48.012Z</updated>
-    
-    <content type="html"><![CDATA[<p>macOS 来到 Sierra (10.12) 后，Karabiner 已然失效。幸好 Karabiner 的开发者们已经释出 Karabiner 的后续版本 <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank" rel="external">Karabiner Elements</a>，通过在 <code>karabiner.json</code>（相当于之前的 <code>private.xml</code>）进行设置，即可修改 Mac 系统的键盘。</p>
-<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><h3 id="键位交换"><a href="#键位交换" class="headerlink" title="键位交换"></a>键位交换</h3><p>Esc, CapsLock, Left Ctrl 三方交换：</p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">    <span class="attr">"profiles"</span>: [</div><div class="line">        &#123;</div><div class="line">            <span class="attr">"name"</span>: <span class="string">"Default profile"</span>,</div><div class="line">            <span class="attr">"selected"</span>: <span class="literal">true</span>,</div><div class="line">            <span class="attr">"simple_modifications"</span>: &#123;</div><div class="line">                <span class="attr">"caps_lock"</span>: <span class="string">"left_control"</span>,</div><div class="line">                <span class="attr">"left_control"</span>: <span class="string">"escape"</span>,</div><div class="line">                <span class="attr">"escape"</span>: <span class="string">"caps_lock"</span></div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    ]</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://github.com/tekezo/Karabiner-Elements/tree/master/examples" target="_blank" rel="external">Examples</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;macOS 来到 Sierra (10.12) 后，Karabiner 已然失效。幸好 Karabiner 的开发者们已经释出 Karabiner 的后续版本 &lt;a href=&quot;https://github.com/tekezo/Karabiner-Elements&quot; ta
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://vayn.de/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="macOS" scheme="http://vayn.de/tags/macOS/"/>
-    
-      <category term="trick" scheme="http://vayn.de/tags/trick/"/>
     
   </entry>
   

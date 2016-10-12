@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://vayn.de/"/>
-  <updated>2016-10-12T06:44:48.012Z</updated>
+  <updated>2016-10-12T07:23:49.633Z</updated>
   <id>http://vayn.de/</id>
   
   <author>
@@ -14,6 +14,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 WizMouse 让 Windows 支持 macOS 鼠标行为</title>
+    <link href="http://vayn.de/2016/10/12/2016/10/use-wizmouse-mimick-mac/"/>
+    <id>http://vayn.de/2016/10/12/2016/10/use-wizmouse-mimick-mac/</id>
+    <published>2016-10-12T07:23:49.633Z</published>
+    <updated>2016-10-12T07:23:49.633Z</updated>
+    
+    <content type="html"><![CDATA[<p>macOS 的鼠标操作有两个异于 Windows 的行为：</p>
+<ol>
+<li>「自然」滚动：就是滚轮向上，页面向下，反之亦然。这个动作是模仿真实环境下将纸张上下搓动。</li>
+<li>在非激活窗口使用滚动：鼠标指针焦点在哪个窗口，就能使用滚轮控制此窗口上下滚动。省去来回切换窗口焦点的麻烦。</li>
+</ol>
+<p>第1点好坏有赖于个人习惯，不过第2点确实可以节省不少时间。那么如何在 Windows 上也让鼠标采用以上行为？不用调注册表，只需要安装 <a href="http://antibody-software.com/web/software/software/wizmouse-makes-your-mouse-wheel-work-on-the-window-under-the-mouse/" target="_blank" rel="external">WizMouse</a> 即可。</p>
+<p>运行 WizMouse 后鼠标就自带非激活窗口滚动功能了，如果还需要自然滚动，在 Settings 里将 <code>Reverse Mouse Scrolling</code> 勾选上就好了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;macOS 的鼠标操作有两个异于 Windows 的行为：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;「自然」滚动：就是滚轮向上，页面向下，反之亦然。这个动作是模仿真实环境下将纸张上下搓动。&lt;/li&gt;
+&lt;li&gt;在非激活窗口使用滚动：鼠标指针焦点在哪个窗口，就能使用滚轮控制此窗口上下滚动。省
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://vayn.de/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="trick" scheme="http://vayn.de/tags/trick/"/>
+    
+      <category term="Windows" scheme="http://vayn.de/tags/Windows/"/>
+    
+      <category term="software" scheme="http://vayn.de/tags/software/"/>
+    
+  </entry>
   
   <entry>
     <title>使用 Karabiner Elements 修改 macOS Sierra 键位</title>
